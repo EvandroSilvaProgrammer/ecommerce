@@ -1,0 +1,779 @@
+.banner
+{
+    float: left;
+    background-color: orange;
+    width: 100%;
+    text-align: center;
+}
+
+#tdCRUD
+{
+    background-color: skyblue;
+}
+
+.artigo
+{
+    float: left;
+    margin-bottom: 10px;
+    width: 60%;
+    text-align: center;
+}
+.linha-artigo
+{
+    float: left;
+    width: 60%;
+}
+.linha-artigo p{margin-left: 10px;}
+
+
+.quantidade
+{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+.linha-quantidade
+{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.valor
+{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+.linha-valor
+{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+
+
+/*Smartphone*/
+@media only screen and (max-width: 600px)
+{
+    .esquerda
+    {
+        float: left;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .areaPesquisa
+    {
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .frmPesquisa
+    {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .textPesquisa
+    {
+        float: left;
+        width: 85%;
+        margin-top: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: verdana, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 5px;
+        border: solid black 1px;
+    }
+    .textPesquisa:focus
+    {
+        outline: none;
+        border: solid orange 1px;
+    }
+    .btnPesquisa
+    {
+        background: url('../../images/icons/search.png') no-repeat;
+        border: none;
+        width: 48px;
+        height: 48px;
+        cursor: pointer;
+        outline: none;
+    }
+    .btnPesquisa:active
+    {
+        box-shadow: inset 1px 1px 1px 1px orange;
+        transform: translate(3px, 3px);
+        transition: box-shadow 0.1s ease, transform 0.1s ease;
+        border-radius: 20px;
+    }
+
+    .areaCategoria
+    {
+        float: left;
+        width: 100%;
+        margin-top: 40px;
+    }
+    .btnCategoriaMeio
+    {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .btnCategoria
+    {
+        float: left;
+        margin-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .areaProdutos
+    {
+        float: left;
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .areaProdutos h3
+    {
+        margin-left: 10px;
+        font-family: verdana, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .btnProdutosMeio
+    {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .btnProdutos
+    {
+        float: left;
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        margin-left: 10px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        background-color: #989898;
+        color: white;
+        font-family: verdana, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .btnProdutos:focus
+    {
+        outline: none;
+        border: solid orange 2px;
+    }
+    .verMais
+    {
+        width: 25%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .btnVermais
+    {
+        float: left;
+        margin-left: 10px;
+        margin-top: 25px;
+        padding: 20px;
+        border-radius: 5px;
+        background-color: #989898;
+        color: white;
+        font-family: verdana, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .btnVermais:focus
+    {
+        outline: none;
+        border: solid orange 2px;
+    }
+
+    .direita
+    {
+        float: left;
+        width: 100%;
+        margin-top: 40px;
+    }
+    .mesasVertical
+    {
+        float: left;
+        width: 20%;
+        background-color: #D7D7D7;
+    }
+    .btnVertical
+    {
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 5px;
+        background-color: #989898;
+        color: white;
+        font-family: verdana, sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .btnVertical:focus
+    {
+        outline: none;
+        border: solid orange 2px;
+    }
+
+    .resto
+    {
+        float: left;
+        width: 80%;
+        background-color: #E9E9E9;
+    }
+    .linhaCimaResto
+    {
+        float: right;
+        width: 100%;
+    }
+    .btnLinhaCimaResto
+    {
+        float: right;
+        width: 30%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-right: 10px;
+        margin-left: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 5px;
+        background-color: #989898;
+        color: white;
+        font-family: verdana, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .btnLinhaCimaResto:focus
+    {
+        outline: none;
+        border: solid orange 2px;
+    }
+    .artigoInformacao
+    {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tabela
+    {
+        float: right;
+        margin-right: 10px;
+        background-color: white;
+        width: 96%;
+    }
+
+    .totalPagar
+    {
+        float: right;
+        width: 96%;
+        margin-right: 10px;
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        background-color: #D7D7D7;
+        font-family: verdana, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+/*Tablet*/
+@media only screen and (min-width: 601px) and (max-width: 1024px)
+{
+    .esquerda
+    {
+        float: left;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .areaPesquisa
+    {
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .frmPesquisa
+    {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .textPesquisa
+    {
+        float: left;
+        width: 85%;
+        margin-top: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: verdana, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 5px;
+        border: solid black 1px;
+    }
+    .textPesquisa:focus
+    {
+        outline: none;
+        border: solid orange 1px;
+    }
+    .btnPesquisa
+    {
+        background: url('../../images/icons/search.png') no-repeat;
+        border: none;
+        width: 48px;
+        height: 48px;
+        cursor: pointer;
+        outline: none;
+    }
+    .btnPesquisa:active
+    {
+        box-shadow: inset 1px 1px 1px 1px orange;
+        transform: translate(3px, 3px);
+        transition: box-shadow 0.1s ease, transform 0.1s ease;
+        border-radius: 20px;
+    }
+
+    .areaCategoria
+    {
+        float: left;
+        width: 100%;
+        margin-top: 40px;
+    }
+    .btnCategoriaMeio
+    {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .btnCategoria
+    {
+        float: left;
+        margin-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .areaProdutos
+    {
+        float: left;
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .areaProdutos h3
+    {
+        margin-left: 10px;
+        font-family: verdana, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .btnProdutosMeio
+    {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .btnProdutos
+    {
+        float: left;
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        margin-left: 10px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        background-color: #989898;
+        color: white;
+        font-family: verdana, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .btnProdutos:focus
+    {
+        outline: none;
+        border: solid orange 2px;
+    }
+    .verMais
+    {
+        width: 25%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .btnVermais
+    {
+        float: left;
+        margin-left: 10px;
+        margin-top: 25px;
+        padding: 20px;
+        border-radius: 5px;
+        background-color: #989898;
+        color: white;
+        font-family: verdana, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .btnVermais:focus
+    {
+        outline: none;
+        border: solid orange 2px;
+    }
+
+    .direita
+    {
+        float: left;
+        width: 100%;
+        margin-top: 40px;
+    }
+    .mesasVertical
+    {
+        float: left;
+        width: 20%;
+        background-color: #D7D7D7;
+    }
+    .btnVertical
+    {
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 5px;
+        background-color: #989898;
+        color: white;
+        font-family: verdana, sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .btnVertical:focus
+    {
+        outline: none;
+        border: solid orange 2px;
+    }
+
+    .resto
+    {
+        float: left;
+        width: 80%;
+        background-color: #E9E9E9;
+    }
+    .linhaCimaResto
+    {
+        float: right;
+        width: 100%;
+    }
+    .btnLinhaCimaResto
+    {
+        float: right;
+        width: 30%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-right: 10px;
+        margin-left: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 5px;
+        background-color: #989898;
+        color: white;
+        font-family: verdana, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .btnLinhaCimaResto:focus
+    {
+        outline: none;
+        border: solid orange 2px;
+    }
+    .artigoInformacao
+    {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .tabela
+    {
+        float: right;
+        margin-right: 10px;
+        background-color: white;
+        width: 96%;
+    }
+
+    .totalPagar
+    {
+        float: right;
+        width: 96%;
+        margin-right: 10px;
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        background-color: #D7D7D7;
+        font-family: verdana, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+/*Desktop*/
+@media only screen and (min-width: 1025px)
+{
+    .esquerda
+    {
+        float: left;
+        margin-top: 10px;
+        width: 40%;
+    }
+    .areaPesquisa
+    {
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .frmPesquisa
+    {
+        float: left;
+        width: 100%;
+        margin-left: 10px;
+    }
+    .textPesquisa
+    {
+        float: left;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-right: 10px;
+        width: 78%;
+        font-family: verdana, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 5px;
+        border: solid black 1px;
+    }
+    .textPesquisa:focus
+    {
+        outline: none;
+        border: solid orange 1px;
+    }
+    .btnPesquisa
+    {
+        margin-top: -5px;
+        background: url('../../images/icons/search.png') no-repeat;
+        border: none;
+        width: 48px;
+        height: 48px;
+        cursor: pointer;
+        outline: none;
+    }
+    .btnPesquisa:active
+    {
+        box-shadow: inset 1px 1px 1px 1px orange;
+        transform: translate(3px, 3px);
+        transition: box-shadow 0.1s ease, transform 0.1s ease;
+        border-radius: 20px;
+    }
+
+    .areaCategoria
+    {
+        float: left;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .btnCategoria
+    {
+        float: left;
+        margin-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .areaProdutos
+    {
+        float: left;
+        width: 100%;
+        margin-top: 20px;
+
+    }
+    .areaProdutos h3
+    {
+        margin-left: 10px;
+        font-family: verdana, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .btnProdutos
+    {
+        float: left;
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        margin-left: 10px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        background-color: #989898;
+        color: white;
+        font-family: verdana, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .btnProdutos:focus
+    {
+        outline: none;
+        border: solid orange 2px;
+    }
+    .verMais
+    {
+        width: 55%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .btnVermais
+    {
+        float: left;
+        margin-left: 10px;
+        margin-top: 50px;
+        padding: 20px;
+        border-radius: 5px;
+        background-color: #989898;
+        color: white;
+        font-family: verdana, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .btnVermais:focus
+    {
+        outline: none;
+        border: solid orange 2px;
+    }
+
+    .direita
+    {
+        float: left;
+        width: 60%;
+        margin-top: 10px;
+    }
+    .mesasVertical
+    {
+        float: left;
+        width: 20%;
+        background-color: #D7D7D7;
+    }
+    .btnVertical
+    {
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 5px;
+        background-color: #989898;
+        color: white;
+        font-family: verdana, sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .btnVertical:focus
+    {
+        outline: none;
+        border: solid orange 2px;
+    }
+
+    .resto
+    {
+        float: left;
+        width: 80%;
+        background-color: #E9E9E9;
+    }
+    .linhaCimaResto
+    {
+        float: right;
+        width: 100%;
+    }
+    .btnLinhaCimaResto
+    {
+        float: right;
+        width: 30%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-right: 10px;
+        margin-left: 5px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 5px;
+        background-color: #989898;
+        color: white;
+        font-family: verdana, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .btnLinhaCimaResto:focus
+    {
+        outline: none;
+        border: solid orange 2px;
+    }
+    .artigoInformacao
+    {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .tabela
+    {
+        float: right;
+        margin-right: 10px;
+        background-color: #EBFDEB;
+        width: 96%;
+    }
+
+
+    .totalPagar
+    {
+        float: right;
+        width: 96%;
+        margin-right: 10px;
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        background-color: #D7D7D7;
+        font-family: verdana, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+}

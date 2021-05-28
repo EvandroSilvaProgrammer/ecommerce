@@ -1,0 +1,89 @@
+.skin-blue .main-header .navbar {background-color: #009240}
+
+.skin-blue .main-header .logo {background-color: #3A7D3A}
+.skin-blue .main-header .logo:hover{background-color:#275E27}
+
+.skin-blue .main-header .navbar .sidebar-toggle:hover {background-color: #275E27; border: #275E27;}
+
+/* .container-fluid{background-color: rgb(219, 224, 219);} */
+.container-fluid{background-color:white;}
+
+.box{background-color: rgb(235, 253, 235);}
+
+.box-footer{background-color: rgb(235, 253, 235);}
+
+.product-preview{outline: none;}
+
+.exampleInputFile{color: black;}
+    #exampleInputFile{color: black;}
+
+.product-label
+{
+    float: right;
+    margin-right: 4px;
+    margin-top: 2px;
+}
+.product-label>span.new
+{
+    background-color: #009240;
+    border-color: #009240;
+    color: #FFF;
+    right: 15px;
+    cursor: pointer
+}
+.box.box-info{border-top-color: #EBFDEB;}
+.btn-info
+{
+    background-color: #008D4C;
+    border-color: #008D4C;
+}
+.btn-info:hover{background-color: #275E27;}
+
+.box-header.with-border{border-bottom: none;}
+
+
+.colorCategorie{margin-left: 20px;}
+
+#trashColor{margin-right: 10px;}
+
+.datetime{float: right;}
+/*Smartphone*/
+@media only screen and (max-width: 480px)
+{
+    #product-main-img{height: 400;}
+
+    #product-imgs{height: 100;}
+
+
+}
+
+/*Tablet*/
+@media only screen and (min-width: 481px) and (max-width: 991px)
+{
+    #product-main-img{height: 650px;}
+
+    #product-imgs{height: 250;}
+
+}
+
+/*Desktop*/
+@media only screen and (min-width: 992px)
+{
+
+    #product-main-img{height: 450px;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

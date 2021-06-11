@@ -23,7 +23,7 @@
 @extends('admim.master.layout')
 
 
-@section('title', 'Gestão de Produtos')
+@section('title', 'Gestão de Livros')
 @section('pageHeader', "{$service->name}")
 
 @section('content')

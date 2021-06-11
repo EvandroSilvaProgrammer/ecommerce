@@ -1,5 +1,5 @@
 $("#subcategorie").change(function(event){
-    $.get("marcas/"+event.target.value+"",function(response,subcategorie){
+    $.get("especialidades/"+event.target.value+"",function(response,subcategorie){
         console.log(response);
 
         $("#brand").empty();

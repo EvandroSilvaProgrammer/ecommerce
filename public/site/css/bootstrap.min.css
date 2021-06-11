@@ -3852,29 +3852,29 @@ fieldset[disabled] .btn-primary:hover {
 
 .btn-success {
     color: #fff;
-    background-color: #5cb85c;
-    border-color: #4cae4c
+    background-color: #1f80e2;
+    border-color: #1b6ab9;
 }
 
 .btn-success.focus,
 .btn-success:focus {
     color: #fff;
-    background-color: #449d44;
+    background-color: #104e8d;
     border-color: #255625
 }
 
 .btn-success:hover {
     color: #fff;
-    background-color: #449d44;
-    border-color: #398439
+    background-color: #104e8d;
+    border-color: #1b6ab9
 }
 
 .btn-success.active,
 .btn-success:active,
 .open>.dropdown-toggle.btn-success {
     color: #fff;
-    background-color: #449d44;
-    border-color: #398439
+    background-color: #104e8d;
+    border-color: #1b6ab9
 }
 
 .btn-success.active.focus,
@@ -3887,7 +3887,7 @@ fieldset[disabled] .btn-primary:hover {
 .open>.dropdown-toggle.btn-success:focus,
 .open>.dropdown-toggle.btn-success:hover {
     color: #fff;
-    background-color: #398439;
+    background-color: #1b6ab9;
     border-color: #255625
 }
 
@@ -3906,12 +3906,12 @@ fieldset[disabled] .btn-primary:hover {
 fieldset[disabled] .btn-success.focus,
 fieldset[disabled] .btn-success:focus,
 fieldset[disabled] .btn-success:hover {
-    background-color: #5cb85c;
-    border-color: #4cae4c
+    background-color: #1f80e2;
+    border-color: #1b6ab9
 }
 
 .btn-success .badge {
-    color: #5cb85c;
+    color: #1f80e2;
     background-color: #fff
 }
 
@@ -5664,7 +5664,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
     padding: 6px 12px;
     margin-left: -1px;
     line-height: 1.42857143;
-    color: #009240;
+    color: #0A66C2;
     text-decoration: none;
     background-color: #fff;
     border: 1px solid #ddd
@@ -5702,8 +5702,8 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
     z-index: 3;
     color: #fff;
     cursor: default;
-    background-color: #009240;
-    border-color: #009240
+    background-color: #0A66C2;
+    border-color: #0A66C2
 }
 
 .pagination>.disabled>a,
@@ -5849,12 +5849,12 @@ a.label:hover {
 }
 
 .label-success {
-    background-color: #5cb85c
+    background-color: #1f80e2
 }
 
 .label-success[href]:focus,
 .label-success[href]:hover {
-    background-color: #449d44
+    background-color: #104e8d
 }
 
 .label-info {
@@ -6183,7 +6183,7 @@ a.thumbnail:hover {
 }
 
 .progress-bar-success {
-    background-color: #5cb85c
+    background-color: #1f80e2
 }
 
 .progress-striped .progress-bar-success {

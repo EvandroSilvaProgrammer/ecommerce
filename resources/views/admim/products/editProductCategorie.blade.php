@@ -1,8 +1,8 @@
 
 @extends('admim.master.layout')
 
-@section('title', 'Gestão de Categorias dos Produtos')
-@section('pageHeader', 'Gestão de Categorias dos Produtos')
+@section('title', 'Gestão de Categorias dos Livros')
+@section('pageHeader', 'Gestão de Categorias dos Livros')
 
 
 @section('content')
@@ -16,7 +16,7 @@
                 <!-- general form elements -->
                 <div class="box box-primary">
                     <div class="box-header with-border">
-                        <h3 class="box-title">Actualizar Categoria dos Produtos</h3>
+                        <h3 class="box-title">Actualizar Categoria dos Livros</h3>
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->

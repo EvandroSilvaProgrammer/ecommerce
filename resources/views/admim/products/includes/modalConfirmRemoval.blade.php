@@ -7,7 +7,7 @@
                     <h4 class="modal-title">{{$product->name}}</h4>
                 </div>
                 <div class="modal-body">
-                    <p>Tem certeza que deseja exluir este produto?</p>
+                    <p>Tem certeza que deseja exluir este livro?</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Cancelar</button>

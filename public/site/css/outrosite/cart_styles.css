@@ -223,7 +223,7 @@ section
 .button
 {
 	display: inline-block;
-	background: #009240;
+	background: #0A66C2;
 	border-radius: 5px;
 	height: 48px;
 	-webkit-transition: all 200ms ease;
@@ -402,7 +402,7 @@ section
 }
 .standard_dropdown li a:hover
 {
-	color: #009240;
+	color: #0A66C2;
 }
 .standard_dropdown li a i
 {
@@ -542,7 +542,7 @@ section
 {
 	font-size: 36px;
 	font-weight: 500;
-	color: #009240;
+	color: #0A66C2;
 }
 .header_search
 {
@@ -714,7 +714,7 @@ section
 }
 .custom_list li a:hover
 {
-	color: #009240;
+	color: #0A66C2;
 }
 select
 {
@@ -749,7 +749,7 @@ select option
 	right: 0;
 	width: 50px;
 	height: 100%;
-	background: #009240;
+	background: #0A66C2;
 	border: none;
 	outline: none;
 	cursor: pointer;
@@ -785,7 +785,7 @@ select option
 }
 .wishlist_text a:hover
 {
-	color: #009240;
+	color: #0A66C2;
 }
 .wishlist_count
 {
@@ -800,7 +800,7 @@ select option
 	right: -14px;
 	width: 23px;
 	height: 23px;
-	background: #009240;
+	background: #0A66C2;
 	border-radius: 50%;
 	text-align: center;
 }
@@ -837,7 +837,7 @@ select option
 }
 .cart_text a:hover
 {
-	color: #009240;
+	color: #0A66C2;
 }
 .cart_price
 {
@@ -876,7 +876,7 @@ select option
 {
 	width: 293px;
 	height: 100%;
-	background: #009240;
+	background: #0A66C2;
 	padding-left: 35px;
 	cursor: pointer;
 	z-index: 1;
@@ -972,7 +972,7 @@ select option
 }
 .cat_menu li a:hover
 {
-	color: #009240;
+	color: #0A66C2;
 }
 .cat_menu li a i
 {
@@ -1068,7 +1068,7 @@ select option
 .page_menu_content
 {
 	height: 0px;
-	background: #009240;
+	background: #0A66C2;
 	padding-left: 15px;
 	padding-right: 15px;
 	overflow: hidden;
@@ -1338,8 +1338,8 @@ select option
 }
 .cart_button_clear:hover
 {
-	border-color: #009240;
-	color: #009240;
+	border-color: #0A66C2;
+	color: #0A66C2;
 }
 .cart_button_checkout
 {
@@ -1421,7 +1421,7 @@ select option
 	padding-left: 25px;
 	font-size: 16px;
 	outline: none;
-	color: #009240;
+	color: #0A66C2;
 }
 .newsletter_input:focus
 {
@@ -1460,7 +1460,7 @@ select option
 	right: 0;
 	width: 153px;
 	height: 50px;
-	background: #009240;
+	background: #0A66C2;
 	color: #FFFFFF;
 	line-height: 50px;
 	font-size: 18px;
@@ -1483,7 +1483,7 @@ select option
 .newsletter_unsubscribe_link a
 {
 	font-size: 10px;
-	color: #009240;
+	color: #0A66C2;
 	font-weight: 500;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
@@ -1532,7 +1532,7 @@ select option
 {
 	font-size: 18px;
 	font-weight: 500;
-	color: #009240;
+	color: #0A66C2;
 	margin-top: 13px;
 }
 .footer_contact_text
@@ -1571,7 +1571,7 @@ select option
 }
 .footer_social ul li:hover i
 {
-	color: #009240;
+	color: #0A66C2;
 }
 .footer_subtitle
 {
@@ -1603,7 +1603,7 @@ select option
 }
 .footer_list li a:hover
 {
-	color: #009240;
+	color: #0A66C2;
 }
 .footer_list_2
 {

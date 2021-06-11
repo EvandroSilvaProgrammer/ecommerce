@@ -30,7 +30,7 @@
                         <div class="box-body">
 
                             <div class="form-group">
-                                <label>Produto 1</label>
+                                <label>Livro 1</label>
                                 <select name="product_01" class="form-control select2" style="width: 100%;">
                                     <option value=" {{$product01->id}} ">{{$product01->name}}</option>
                                     @foreach ($products as $product)
@@ -42,7 +42,7 @@
                             </div>
 
                             <div class="form-group">
-                                <label>Produto 2</label>
+                                <label>Livro 2</label>
                                 <select name="product_02" class="form-control select2" style="width: 100%;">
                                     <option value=" {{$product02->id}} ">{{$product02->name}}</option>
                                     @foreach ($products as $product)
@@ -73,7 +73,7 @@
                                         </div>
                                         <!-- /.box-header -->
                                         <div class="box-body pad">
-                                            <textarea name="description"  class="textarea" placeholder="Descrição do produto"
+                                            <textarea name="description"  class="textarea" placeholder="Descrição do livro"
                                             style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;">{{$promotion->description}}</textarea>
                                         </div>
                                     </div>

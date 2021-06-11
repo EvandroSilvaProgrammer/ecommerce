@@ -28,7 +28,7 @@
                         <div class="box-body">
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Nome</label>
-                                <input name="name" type="text" class="form-control" id="exampleInputEmail1" placeholder="Nome do produto" value="{{old('name')}}">
+                                <input name="name" type="text" class="form-control" id="exampleInputEmail1" placeholder="Nome do livro" value="{{old('name')}}">
                             </div>
 
                             <div class="row">
@@ -46,7 +46,7 @@
                                         </div>
                                         <!-- /.box-header -->
                                         <div class="box-body pad">
-                                            <textarea name="description"  class="textarea" placeholder="Descrição do produto"
+                                            <textarea name="description"  class="textarea" placeholder="Descrição do livro"
                                             style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;">{{old('description')}}</textarea>
                                         </div>
                                     </div>
@@ -58,18 +58,18 @@
 
                             <div class="form-group">
                                 <label for="exampleInputPassword1">Preço</label>
-                                <input name="price" type="number" class="form-control" id="exampleInputPassword1" placeholder="Preço do produto" value="{{old('price')}}">
+                                <input name="price" type="number" class="form-control" id="exampleInputPassword1" placeholder="Preço do livro" value="{{old('price')}}">
                             </div>
 
 
                             <div class="form-group">
                                 <label for="exampleInputPassword1">Desconto</label>
-                                <input name="discount" type="number" class="form-control" id="exampleInputPassword1" placeholder="Desconto do produto, caso haja algum" value="{{old('price')}}">
+                                <input name="discount" type="number" class="form-control" id="exampleInputPassword1" placeholder="Desconto do livro, caso haja algum" value="{{old('price')}}">
                             </div>
 
 
                             <div class="form-group">
-                                <label for="exampleInputFile">Imagem do produto</label>
+                                <label for="exampleInputFile">Imagem do livro</label>
                                 <input name="image" type="file" id="exampleInputFile">
                             </div>
 

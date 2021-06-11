@@ -108,7 +108,7 @@ class ProductController extends Controller
        if($request->hasFile('image') && $request->image->isValid())
        {
            //$imageName = $request->name . '_' . $request->id . '.' . $request->image->extension();
-           $imagePath = $request->image->store('products/imgs');
+           $imagePath = $request->image->store('public/products/imgs');
 
            $data['image'] = $imagePath;
        }

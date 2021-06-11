@@ -35,12 +35,12 @@ class fornecedorUpdateRequest extends FormRequest
     public function messages()
     {
         return [
-            'name.required' => 'Nome do produto é obrigatório',
-            'name.max:255' => 'Nome do produto não pode exceder os 255 caracteres',
+            'name.required' => 'Nome do livro é obrigatório',
+            'name.max:255' => 'Nome do livro não pode exceder os 255 caracteres',
             'province.required' => 'Nome da província obrigatório',
             'district.required' => 'Nome da província obrigatório',
             'street.required' => 'Nome da Rua é obrigatório',
-            'neighborhood.required' => 'Nome do produto é obrigatório',
+            'neighborhood.required' => 'Nome do livro é obrigatório',
         ];
     }
 }

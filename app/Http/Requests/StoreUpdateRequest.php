@@ -38,12 +38,12 @@ class StoreUpdateRequest extends FormRequest
     public function messages()
     {
         return [
-            'name.required' => 'Nome do produto é obrigatório',
-            'name.max:255' => 'Nome do produto não pode exceder os 255 caracteres',
-            'price.required' => 'Preço do produto é obrigatório',
-            'qtd.required' => 'Quantidade do produto é obrigatória',
-            'description.required' => 'Descrição do produto é obrigatória',
-            'details.required' => 'Detalhes do produto é obrigatório',
+            'name.required' => 'Nome do livro é obrigatório',
+            'name.max:255' => 'Nome do livro não pode exceder os 255 caracteres',
+            'price.required' => 'Preço do livro é obrigatório',
+            'qtd.required' => 'Quantidade do livro é obrigatória',
+            'description.required' => 'Descrição do livro é obrigatória',
+            'details.required' => 'Detalhes do livro é obrigatório',
             'image.image' => 'O ficheiro de imagem tem de ser um ficheiro de imagem válido',
             'image.required' => 'A imagem é obrigatória'
         ];

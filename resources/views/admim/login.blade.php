@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Doriema Lda | Log in</title>
+<title>Trutaa | Log in</title>
 <!-- Tell the browser to be responsive to screen width -->
 <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 <!-- Bootstrap 3.3.7 -->
@@ -23,7 +23,7 @@
   <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
-  
+
   <!-- Google Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
   </head>
@@ -45,22 +45,22 @@
   Coloque seus dados para iniciar sessão
   @endif
   </p>
-  
+
   <form action="{{route('admim.login')}}" method="POST">
   @csrf
-  
-  
+
+
   <div class="form-group has-feedback">
   <input type="email" name="email" class="form-control" placeholder="Email" value="{{old('email')}}">
   <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
   </div>
-  
+
   <div class="form-group has-feedback">
   <input type="password" id="password" name="password" class="form-control" placeholder="Password">
   <p id="capslock" style="margin-left:2px; color:red; padding-top:4px; display: none;">CapsLock activo</p>
   <span class="glyphicon glyphicon-lock form-control-feedback"></span>
   </div>
-  
+
   <div class="row">
   <!-- /.col -->
   <div class="col-xs-4">
@@ -69,12 +69,12 @@
   <!-- /.col -->
   </div>
   </form>
-  
+
   </div>
   <!-- /.login-box-body -->
   </div>
   <!-- /.login-box -->
-  
+
   <!-- jQuery 3 -->
   <script src="{{asset('admim/bower_components/jquery/dist/jquery.min.js')}}"></script>
   <!-- Bootstrap 3.3.7 -->
@@ -90,11 +90,11 @@
     });
   });
   </script>
-  
+
   <script>
     var password = document.getElementById('password');
     var capsLock = document.getElementById('capslock');
-    
+
     password.addEventListener("keyup", function(event){
       if(event.getModifierState('CapsLock'))
       {

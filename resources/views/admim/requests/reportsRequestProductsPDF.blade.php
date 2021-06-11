@@ -211,7 +211,7 @@
 
             <div class="col-sm-4 invoice-col">
                 <address>
-                    <strong style="font-weight: bold">Doriema Lda.</strong><br>
+                    <strong style="font-weight: bold">Trutaa.</strong><br>
                     @foreach ($contacts as $contact)
 
                         Endereço: {{$contact->adress}} <br>
@@ -261,7 +261,7 @@
                 <table class="table table-striped">
                     <thead>
                         <tr>
-                            <th>Produto</th>
+                            <th>Livro</th>
                             <th>Qtd</th>
                             <th>Preço</th>
                             <th>Total</th>

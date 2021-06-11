@@ -58,7 +58,7 @@ class sendEmailAdmin extends Mailable
 
         $this->subject('Efectivação de Encomenda');
         $this->to($this->admin->email, $this->admin->name);
-        $this->cc('jose.subtil@doriema.com', 'Jose Subtil');
+        $this->cc('evandrosilva.ucan@gmail.com, 'Evandro Silva');
 
         return $this->markdown('site.email.emailAdmin', [
             'requests' => $requests,

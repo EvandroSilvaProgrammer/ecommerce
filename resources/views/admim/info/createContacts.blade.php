@@ -1,7 +1,7 @@
 @extends('admim.master.layout')
 
-@section('title', 'Gestão de Produtos')
-@section('pageHeader', 'Gestão de Produtos')
+@section('title', 'Gestão de Livros')
+@section('pageHeader', 'Gestão de Livros')
 
 
 @section('content')

@@ -42,7 +42,7 @@
                     <div>
                         <div class="box">
                             <div class="box-header">
-                                <h3 class="box-title">Lista de Produtos para o pedido Refer.: {{$request->id}}</h3>
+                                <h3 class="box-title">Lista de Livros para o pedido Refer.: {{$request->id}}</h3>
                             </div>
                             <!-- /.box-header -->
                             <div class="box-body">

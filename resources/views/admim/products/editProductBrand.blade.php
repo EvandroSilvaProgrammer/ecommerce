@@ -1,8 +1,8 @@
 
 @extends('admim.master.layout')
 
-@section('title', 'Gestão de Marca')
-@section('pageHeader', 'Gestão de Marca')
+@section('title', 'Gestão de Especialidade')
+@section('pageHeader', 'Gestão de Especialidade')
 
 
 @section('content')
@@ -16,7 +16,7 @@
                 <!-- general form elements -->
                 <div class="box box-primary">
                     <div class="box-header with-border">
-                        <h3 class="box-title">Actualizar Marca</h3>
+                        <h3 class="box-title">Actualizar Especialidade</h3>
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->
@@ -35,7 +35,7 @@
                         <div class="box-body">
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Nome</label>
-                                <input name="name" type="text" class="form-control" id="exampleInputEmail1" placeholder="Marca" value="{{$brand->name}}">
+                                <input name="name" type="text" class="form-control" id="exampleInputEmail1" placeholder="Especialidade" value="{{$brand->name}}">
                             </div>
                         </div>
                         <!-- /.box-body -->

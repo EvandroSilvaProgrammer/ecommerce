@@ -47,52 +47,52 @@
 .header-search form .input-select:focus
 {
     outline: none;
-    border: 2px solid #009240;
+    border: 2px solid #0A66C2;
 }
 
 .header-search form .input:focus
 {
     outline: none;
-    border: 2px solid #009240;
+    border: 2px solid #0A66C2;
 }
 .product-preview{outline: none;}
 
 .header-search form .search-btn:hover
 {
     background-color: white;
-    color: #009240;
-    border: 2px solid #009240;
+    color: #0A66C2;
+    border: 2px solid #0A66C2;
 }
 
 .header-ctn>div>a:hover
 {
     cursor: pointer;
-    color: #009240;
+    color: #0A66C2;
 }
 .products-slick .product.slick-slide{outline: none;}
 
-.product .add-to-cart .add-to-cart-btn{background-color: #009240;}
+.product .add-to-cart .add-to-cart-btn{background-color: #0A66C2;}
 
 .newsletter form .input:focus
 {
     outline: none;
-    border: 2px solid #009240;
+    border: 2px solid #0A66C2;
 }
 
 .newsletter form .newsletter-btn{outline: none;}
 .newsletter form .newsletter-btn:hover
 {
     background-color: white;
-    color: #009240;
-    border: 2px solid #009240;
+    color: #0A66C2;
+    border: 2px solid #0A66C2;
 }
 
 
 .btn-search-categories:hover
 {
     background-color: white;
-    color: #009240;
-    border: 2px solid #009240;
+    color: #0A66C2;
+    border: 2px solid #0A66C2;
 }
 
 .search-categories
@@ -104,7 +104,7 @@
     .btn-search-categories
     {
         width: 100%;
-        background-color: #009240;
+        background-color: #0A66C2;
         border: 2px solid transparent;
         color: white;
         text-transform: uppercase;
@@ -119,7 +119,7 @@
 .product-details .add-to-cart .add-to-cart-btn
  {
     outline: none;
-    background-color: #009240;
+    background-color: #0A66C2;
  }
 
  .label-qtd .input-number input[type="text"]
@@ -205,8 +205,8 @@
 .cart_button_checkout:hover
 {
     background-color: white;
-    color: #009240;
-    border: 2px solid #009240;
+    color: #0A66C2;
+    border: 2px solid #0A66C2;
 }
 .callout {
     border-radius: 3px;
@@ -238,9 +238,10 @@
 
 .alert-success
 {
-    background-color: #00a65a !important;
+    background-color: #1c87f1 !important;
     color: #fff !important;
-    border-color: #008d4c;
+    border-color: #005ebd;
+    border-color: #005ebd;
 }
 
 
@@ -252,8 +253,8 @@
 
 .standard_dropdown li a.active
 {
-    border-bottom: solid 2px #00a65a;
-    color: #00a65a;
+    border-bottom: solid 2px #1c87f1;
+    color: #1c87f1;
 }
 
 /* .modal-content
@@ -272,7 +273,7 @@
 {
     text-align: center;
     font-size: 24px;
-    color: #449D44;
+    color: #104e8d;
 }
 
 .fab{position: fixed;}
@@ -293,7 +294,7 @@
 {
     /* #responsive-nav li ul li a:hover, #responsive-nav li ul li a:focus, #responsive-navli ul li:active a
     {
-        color: #009240;
+        color: #0A66C2;
     }
 
     #responsive-nav ul li ul li a
@@ -393,7 +394,7 @@
 {
     #responsive-nav li ul li a:hover, #responsive-nav li ul li a:focus, #responsive-navli ul li:active a
     {
-        color: #009240;
+        color: #0A66C2;
     }
 
     /* #responsive-nav ul li ul li a
@@ -506,7 +507,7 @@
     #responsive-nav ul ul li a
     {
         float: left;
-        background-color: #009240;
+        background-color: #0A66C2;
         width: 142px;
         margin-right: 20px;
         color: white;
@@ -514,10 +515,10 @@
 
     #responsive-nav ul ul li:hover a
     {
-        border-top: 2px solid #009240;
-        border-bottom: 2px solid #009240;
+        border-top: 2px solid #0A66C2;
+        border-bottom: 2px solid #0A66C2;
         background-color: white;
-        color: #009240;
+        color: #0A66C2;
         transition: all 0.5s ease;
     }
         #responsive-nav ul li:hover ul{visibility: visible;}
@@ -559,11 +560,11 @@
     .primary-btn:hover
     {
         background-color: white;
-        color: #009240;
-        border: solid 2px #009240;
+        color: #0A66C2;
+        border: solid 2px #0A66C2;
     }
 
-    .product-widget:hover .product-name {color: #009240;}
+    .product-widget:hover .product-name {color: #0A66C2;}
 
     /*.shop .shop-body{width: 100%; padding-top: 15%}*/
 
@@ -673,7 +674,7 @@
     display: inline-block;
     width: calc(50% - 0px);
     padding: 12px;
-    background-color: #009240;
+    background-color: #0A66C2;
     color: #FFF;
     text-align: center;
     font-weight: 700;

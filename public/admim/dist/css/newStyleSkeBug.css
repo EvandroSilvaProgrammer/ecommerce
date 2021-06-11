@@ -1,4 +1,4 @@
-.skin-blue .main-header .navbar {background-color: #009240}
+.skin-blue .main-header .navbar {background-color: #0A66C2}
 
 .skin-blue .main-header .logo {background-color: #3A7D3A}
 .skin-blue .main-header .logo:hover{background-color:#275E27}
@@ -25,8 +25,8 @@
 }
 .product-label>span.new
 {
-    background-color: #009240;
-    border-color: #009240;
+    background-color: #0A66C2;
+    border-color: #0A66C2;
     color: #FFF;
     right: 15px;
     cursor: pointer
@@ -34,8 +34,8 @@
 .box.box-info{border-top-color: #EBFDEB;}
 .btn-info
 {
-    background-color: #008D4C;
-    border-color: #008D4C;
+    background-color: #005ebd;
+    border-color: #005ebd;
 }
 .btn-info:hover{background-color: #275E27;}
 

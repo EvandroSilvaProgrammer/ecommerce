@@ -188,7 +188,7 @@
         <div class="row invoice-info">
             <div style="margin-left: 2%;" class="col-sm-4 invoice-col">
                 <address>
-                    <strong>Doriema Lda.</strong><br>
+                    <strong>Trutaa.</strong><br>
                     @foreach ($contacts as $contact)
                     {{$contact->adress}} <br>
                     {{$contact->email}} <br>

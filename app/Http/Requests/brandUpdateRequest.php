@@ -31,7 +31,7 @@ class brandUpdateRequest extends FormRequest
     public function messages()
     {
         return [
-            'name.required' => 'Nome da Marca é obrigatório',
+            'name.required' => 'Nome da Especialidade é obrigatório',
         ];
     }
 }

@@ -263,16 +263,16 @@
                     @if((Route::current()->getName() === 'admim.products.show') ) active  @endif>
                     @if((Route::current()->getName() === 'admim.products.edit') ) active  @endif>
                     @if((Route::current()->getName() === 'admim.product.slideShow') ) active  @endif">
-                    <a href=""><i class="fa fa-edit"></i> <span>Produtos</span>
+                    <a href=""><i class="fa fa-edit"></i> <span>Livros</span>
                         <span class="pull-right-container">
                             <i class="fa fa-angle-left pull-right"></i>
                         </span>
                     </a>
                     <ul class="treeview-menu">
-                        <li ><a href="{{route('admim.products.index')}}">Gestão de Produto</a></li>
+                        <li ><a href="{{route('admim.products.index')}}">Gestão de Livro</a></li>
                         <li><a href="{{route('admim.productCategories.index')}}">Gestão de Categorias</a></li>
                         <li><a href="{{route('admim.productSubCategories.index')}}">Gestão de Sub-Categorias</a></li>
-                        <li><a href="{{route('admim.productBrands.index')}}">Gestão de Marcas</a></li>
+                        <li><a href="{{route('admim.productBrands.index')}}">Gestão de Especialidades</a></li>
                         <li><a href="{{route('admim.product.slideShow')}}">Gestão do Slide</a></li>
                     </ul>
                 </li>
@@ -352,7 +352,7 @@
             Desenvolvido por <strong> <a href="#">Evandro Silva</a> </strong> e <strong><a href="#">Sandro Cardoso</a></strong>
         </div>
         <!-- Default to the left -->
-        <strong>Copyright &copy; <?php echo date('Y') ?> <a href="{{route('products.showHome')}}">Doriema Lda</a>.</strong> Todos direitos reservados.
+        <strong>Copyright &copy; <?php echo date('Y') ?> <a href="{{route('products.showHome')}}">Trutaa</a>.</strong> Todos direitos reservados.
     </footer>
 
 

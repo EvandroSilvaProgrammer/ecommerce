@@ -38,7 +38,7 @@
                             </div>
 
                             <div class="form-group">
-                                <label>Produto</label>
+                                <label>Livro</label>
                                 <select name="product" class="form-control select2" style="width: 100%;">
                                     @foreach ($products as $product)
                                         @if ($product->eliminado == 'no')
@@ -93,7 +93,7 @@
                     <tr>
                         <th>id</th>
                         <th>Fornecedor</th>
-                        <th>Produto</th>
+                        <th>Livro</th>
                         <th width="80">Quantidade</th>
                         <th>Preço</th>
                         <th>Preço em Dolar</th>
@@ -142,7 +142,7 @@
                     <tr>
                         <th>id</th>
                         <th>Fornecedor</th>
-                        <th>Produto</th>
+                        <th>Livro</th>
                         <th width="80">Quantidade</th>
                         <th>Preço</th>
                         <th>Preço em Dolar</th>

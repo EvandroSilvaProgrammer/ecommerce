@@ -23,7 +23,7 @@
 @extends('admim.master.layout')
 
 
-@section('title', 'Gestão de Produtos')
+@section('title', 'Gestão de Livros')
 @section('pageHeader', "{$product->name}")
 
 @section('content')
@@ -48,7 +48,7 @@
                         <!-- Extra imgs -->
                         @foreach ($extraImages as $extraImage)
                         <div class="product-preview">
-                            <img src="{{url("storage/{$extraImage->image}")}}" alt="{{$product->name}}">
+                            <img src="{{asset("storage/{$extraImage->image}")}}" alt="{{$product->name}}">
                         </div>
                         @endforeach
                         <!-- /Extra imgs -->
@@ -114,7 +114,7 @@
                             <li>Subcategoria:</li>
                             <li>{{$subcategorie}}</li> <br> <br>
 
-                            <li>Marca:</li>
+                            <li>Especialidade:</li>
                             <li>{{$brand}}</li> <br> <br>
 
                             <li>Preço em Dolar:</li>
@@ -166,12 +166,12 @@
 
                         <div class="add-to-cart">
                             <a href="{{route('admim.products.edit', $product->id)}}">
-                                <button class="add-to-cart-btn"><i class="fa fa-fw fa-edit"></i>Editar produto</button>
+                                <button class="add-to-cart-btn"><i class="fa fa-fw fa-edit"></i>Editar livro</button>
                             </a>
                         </div>
 
                         <div class="add-to-cart">
-                            <button data-toggle="modal" data-target="#modal-danger" class="add-to-cart-btn"><i class="fa fa-trash-o"></i>Remover produto</button>
+                            <button data-toggle="modal" data-target="#modal-danger" class="add-to-cart-btn"><i class="fa fa-trash-o"></i>Remover livro</button>
                         </div>
 
                         @include('admim.products.includes.modalAddImage')

@@ -41,7 +41,7 @@
                     <div>
                         <div class="box">
                             <div class="box-header">
-                                <h3 class="box-title">Lista de Marcas associadas a sub-categoria {{$subcategorie->name}} </h3>
+                                <h3 class="box-title">Lista de Especialidades associadas a sub-categoria {{$subcategorie->name}} </h3>
                             </div>
                             <!-- /.box-header -->
                             <div class="box-body">
@@ -49,7 +49,7 @@
                                     <thead>
                                         <tr>
                                             <th>id</th>
-                                            <th>Marca</th>
+                                            <th>Especialidade</th>
                                             <th width="5">Eliminar</th>
                                         </tr>
                                     </thead>
@@ -71,7 +71,7 @@
                                     <tfoot>
                                         <tr>
                                             <th>id</th>
-                                            <th>Marca</th>
+                                            <th>Especialidade</th>
                                             <th width="5">Eliminar</th>
                                         </tr>
                                     </tfoot>
@@ -104,7 +104,7 @@
 
                         @can('Adicionar Permissões')
                             <div class="add-to-cart">
-                                <button data-toggle="modal" data-target="#modal-brand" class="add-to-cart-btn"><i class="fa fa-fw fa-truck"></i>Adicionar Marca</button>
+                                <button data-toggle="modal" data-target="#modal-brand" class="add-to-cart-btn"><i class="fa fa-fw fa-truck"></i>Adicionar Especialidade</button>
                             </div>
                         @endcan
 

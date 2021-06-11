@@ -39,7 +39,7 @@ class RequestController extends Controller
 
             $intervalo = abs( $date2 - $date1 ) / 60;
 
-            if($intervalo >= 2880)
+            if($intervalo >= 5760)
             {
                 Pedido::where('id', '=', $purchase->id)->update(['status' => 'CA', 'canceled_for' => 'TIME']);
 
@@ -84,7 +84,7 @@ class RequestController extends Controller
 
             $intervalo = abs( $date2 - $date1 ) / 60;
 
-            if($intervalo >= 2880)
+            if($intervalo >= 5760)
             {
                 Pedido::where('id', '=', $purchase->id)->update(['status' => 'CA', 'canceled_for' => 'TIME']);
 
@@ -129,7 +129,7 @@ class RequestController extends Controller
 
             $intervalo = abs( $date2 - $date1 ) / 60;
 
-            if($intervalo >= 2880)
+            if($intervalo >= 5760)
             {
                 Pedido::where('id', '=', $purchase->id)->update(['status' => 'CA', 'canceled_for' => 'TIME']);
 
@@ -174,7 +174,7 @@ class RequestController extends Controller
 
             $intervalo = abs( $date2 - $date1 ) / 60;
 
-            if($intervalo >= 2880)
+            if($intervalo >= 5760)
             {
                 Pedido::where('id', '=', $purchase->id)->update(['status' => 'CA', 'canceled_for' => 'TIME']);
 
@@ -285,7 +285,7 @@ class RequestController extends Controller
 
             $intervalo = abs( $date2 - $date1 ) / 60;
 
-            if($intervalo >= 2880)
+            if($intervalo >= 5760)
             {
                 Pedido::where('id', '=', $purchase->id)->update(['status' => 'CA', 'canceled_for' => 'TIME']);
 
@@ -335,7 +335,7 @@ class RequestController extends Controller
 
             $intervalo = abs( $date2 - $date1 ) / 60;
 
-            if($intervalo >= 2880)
+            if($intervalo >= 5760)
             {
                 Pedido::where('id', '=', $purchase->id)->update(['status' => 'CA', 'canceled_for' => 'TIME']);
 

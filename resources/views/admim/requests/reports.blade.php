@@ -21,8 +21,8 @@
             <div class="icon">
                 <i class="ion ion-bag"></i>
             </div>
-            <a href="{{route('admim.Reportsrequest.allRequestsExcel')}}" class="small-box-footer">Gerar Relatório Excel <i class="fa fa-arrow-circle-right"></i></a>
-            <a href="{{route('admim.Reportsrequest.allRequestsPDF')}}" class="small-box-footer">Gerar Relatório PDF <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="{{route('admim.Reportsrequest.allRequestsExcel')}}" class="small-box-footer" target="_blank">Gerar Relatório Excel <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="{{route('admim.Reportsrequest.allRequestsPDF')}}" class="small-box-footer" target="_blank">Gerar Relatório PDF <i class="fa fa-arrow-circle-right"></i></a>
         </div>
     </div>
     <!-- ./col -->
@@ -38,8 +38,8 @@
             <div class="icon">
                 <i class="ion ion-bag"></i>
             </div>
-            <a href="{{route('admim.Reportsrequest.orderedRequestsExcel')}}" class="small-box-footer">Gerar Relatório Excel <i class="fa fa-arrow-circle-right"></i></a>
-            <a href="{{route('admim.Reportsrequest.orderedRequestsPDF')}}" class="small-box-footer">Gerar Relatório PDF <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="{{route('admim.Reportsrequest.orderedRequestsExcel')}}" class="small-box-footer" target="_blank">Gerar Relatório Excel <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="{{route('admim.Reportsrequest.orderedRequestsPDF')}}" class="small-box-footer" target="_blank">Gerar Relatório PDF <i class="fa fa-arrow-circle-right"></i></a>
         </div>
     </div>
     <!-- ./col -->
@@ -55,8 +55,8 @@
             <div class="icon">
                 <i class="ion ion-bag"></i>
             </div>
-            <a href="{{route('admim.Reportsrequest.deliveryRequestsExcel')}}" class="small-box-footer">Gerar Relatório Excel <i class="fa fa-arrow-circle-right"></i></a>
-            <a href="{{route('admim.Reportsrequest.deliveryRequestsPDF')}}" class="small-box-footer">Gerar Relatório PDF <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="{{route('admim.Reportsrequest.deliveryRequestsExcel')}}" class="small-box-footer" target="_blank">Gerar Relatório Excel <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="{{route('admim.Reportsrequest.deliveryRequestsPDF')}}" class="small-box-footer" target="_blank">Gerar Relatório PDF <i class="fa fa-arrow-circle-right"></i></a>
         </div>
     </div>
     <!-- ./col -->
@@ -72,8 +72,8 @@
             <div class="icon">
                 <i class="ion ion-bag"></i>
             </div>
-            <a href="{{route('admim.Reportsrequest.canceledRequestsExcel')}}" class="small-box-footer">Gerar Relatório Excel <i class="fa fa-arrow-circle-right"></i></a>
-            <a href="{{route('admim.Reportsrequest.canceledRequestsPDF')}}" class="small-box-footer">Gerar Relatório PDF <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="{{route('admim.Reportsrequest.canceledRequestsExcel')}}" class="small-box-footer" target="_blank">Gerar Relatório Excel <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="{{route('admim.Reportsrequest.canceledRequestsPDF')}}" class="small-box-footer" target="_blank">Gerar Relatório PDF <i class="fa fa-arrow-circle-right"></i></a>
         </div>
     </div>
     <!-- ./col -->

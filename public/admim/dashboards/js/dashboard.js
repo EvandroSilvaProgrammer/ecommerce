@@ -52,7 +52,7 @@ $(function () {
                     data: data,
                     borderWidth: 1,
                     borderColor: '#275E27',
-                    backgroundColor: '#009240'
+                    backgroundColor: '#0A66C2'
                 }],
             },
             options: {

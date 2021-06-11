@@ -45,27 +45,27 @@ Route::get('storage-link', function(){
 /*              SITES ROUTES                 */
 /*-------------------------------------------*/
 
-    Route::group(['middleware' => 'stats'], function ()
-    {
-        // Route::get('/home', 'HomeController@index')->name('home');
+   /* Route::group(['middleware' => 'stats'], function ()
+    { */
+        //Route::get('/home', 'HomeController@index')->name('home');
 
-        Route::any('produtos/pesquisa', 'Site\ProductController@personalizedQuery')
+        Route::any('livros/pesquisa', 'Site\ProductController@personalizedQuery')
         ->name('products.personalizedQuery');
 
-        Route::any('produtos/categoria/pesquisa', 'Site\CategorieProductController@personalizedQueryCategorie')
+        Route::any('livros/categoria/pesquisa', 'Site\CategorieProductController@personalizedQueryCategorie')
         ->name('products.categorie.personalizedQuery');
 
-        Route::any('produtos/subcategoria/pesquisa', 'Site\SubCategorieProductController@personalizedQuerysubcategorie')
+        Route::any('livros/subcategoria/pesquisa', 'Site\SubCategorieProductController@personalizedQuerysubcategorie')
         ->name('products.subcategorie.personalizedQuery');
 
         Route::get('/', 'Site\HomeController@showHome')->name('products.showHome');
 
-        Route::get('produtos', 'Site\ProductController@index')->name('products.index');
-        Route::get('produtos/{id}', 'Site\ProductController@show')->name('product.show');
+        Route::get('livros', 'Site\ProductController@index')->name('products.index');
+        Route::get('livros/{id}', 'Site\ProductController@show')->name('product.show');
 
-        Route::get('produtos/categoria/{id}', 'Site\CategorieProductController@show')->name('categorie.show');
+        Route::get('livros/categoria/{id}', 'Site\CategorieProductController@show')->name('categorie.show');
 
-        Route::get('produtos/subcategoria/{id}', 'Site\SubCategorieProductController@show')->name('subcategorie.show');
+        Route::get('livros/subcategoria/{id}', 'Site\SubCategorieProductController@show')->name('subcategorie.show');
 
         Route::get('servicos', 'Site\ServiceController@index')->name('services.index');
         Route::get('servicos/{id}', 'Site\ServiceController@show')->name('service.show');
@@ -89,10 +89,10 @@ Route::get('storage-link', function(){
         Route::get('cliente/municipios/{id}', 'Site\ClientLoginController@getDistricts');
 
         // //Pegar Marcas relacionadas a uma sub-categoria EDIT
-        // Route::get('administracao/marcas/{id}', 'Admim\ProductController@getBrandsAdd');
+        // Route::get('administracao/especialidades/{id}', 'Admim\ProductController@getBrandsAdd');
 
         // //Pegar Marcas relacionadas a uma sub-categoria ADD
-        // Route::get('administracao/produtos/{outro}/marcas/{id}', 'Admim\ProductController@getBrandsEdit');
+        // Route::get('administracao/livros/{outro}/especialidades/{id}', 'Admim\ProductController@getBrandsEdit');
 
         Route::get('cliente/login', 'Site\ClientLoginController@showLogin')->name('client.showLogin');
         Route::post('cliente/login', 'Site\ClientLoginController@login')->name('client.login');
@@ -133,7 +133,7 @@ Route::get('storage-link', function(){
         /*---------------------------------------------------------------------------------------------------------------------*/
 
 
-    });
+    //});
 
     Route::get('/stats-today', 'Admim\StatisticsController@visitsToday')->name('stats.visitsToday');
     Route::get('/stats-month', 'Admim\StatisticsController@visitsInMonth');
@@ -229,7 +229,7 @@ Route::get('storage-link', function(){
     // Route::get('/', 'Site\AutoCompleteController@index');
 
    Route::post('/search/site', 'Site\AutoCompleteController@fetch')->name('site.search.product');
-   Route::any('/pesquisar/produto', 'Site\AutoCompleteController@search')->name('site.search');
+   Route::any('/pesquisar/livro', 'Site\AutoCompleteController@search')->name('site.search');
 
     /*-----------------------------PDF REQUESTS REPORTS------------------------------------------------------------------------*/
         Route::get('pedido/factura/{request_id}/{total_request}', 'Site\FacturaController@clientPF')
@@ -420,44 +420,44 @@ Route::get('storage-link', function(){
 
     /*-----------------------------PRODUCTS-----------------------------------------------------------*/
         //Create
-        Route::get('administracao/produtos/create', 'Admim\ProductController@create')
+        Route::get('administracao/livros/create', 'Admim\ProductController@create')
         ->name('admim.products.create')->middleware('auth');;
 
-        Route::post('administracao/produtos', 'Admim\ProductController@store')
+        Route::post('administracao/livros', 'Admim\ProductController@store')
         ->name('admim.products.store')->middleware('auth');;
 
         //Read
-        Route::get('administracao/produtos', 'Admim\ProductController@index')
+        Route::get('administracao/livros', 'Admim\ProductController@index')
         ->name('admim.products.index')->middleware('auth');
 
-        Route::get('administracao/produtos/{id}', 'Admim\ProductController@show')
+        Route::get('administracao/livros/{id}', 'Admim\ProductController@show')
         ->name('admim.products.show')->middleware('auth');;
 
         //Update
-        Route::put('administracao/produtos/{id}', 'Admim\ProductController@update')
+        Route::put('administracao/livros/{id}', 'Admim\ProductController@update')
         ->name('admim.products.update');
 
-        Route::get('administracao/produtos/{id}/edit', 'Admim\ProductController@edit')
+        Route::get('administracao/livros/{id}/edit', 'Admim\ProductController@edit')
         ->name('admim.products.edit');
 
         //Delete
-        Route::get('administracao/produtos/{id}/remove', 'Admim\ProductController@destroy')
+        Route::get('administracao/livros/{id}/remove', 'Admim\ProductController@destroy')
         ->name('admim.products.destroy');
 
         //Colocar produto online
-        Route::get('administracao/produtos/{id}/online', 'Admim\ProductController@online')
+        Route::get('administracao/livros/{id}/online', 'Admim\ProductController@online')
         ->name('admim.product.online');
 
-        Route::get('administracao/produtos/{id}/offline', 'Admim\ProductController@offline')
+        Route::get('administracao/livros/{id}/offline', 'Admim\ProductController@offline')
         ->name('admim.product.offline');
 
         /*-----------------------------DETAILS PRODUCTS-----------------------------------------------------------*/
             //Create
-            Route::post('administracao/produtos/{id}/adicionardetalhes', 'Admim\DetailController@store')
+            Route::post('administracao/livros/{id}/adicionardetalhes', 'Admim\DetailController@store')
             ->name('admim.products.addDetail.store');
 
             //DELETE
-            Route::get('administracao/produtos/{image}/removerdetalhes', 'Admim\DetailController@destroy')
+            Route::get('administracao/livros/{image}/removerdetalhes', 'Admim\DetailController@destroy')
             ->name('admim.products.addDetail.destroy');
         /*---------------------------------------------------------------------------------------------------------*/
 
@@ -466,112 +466,112 @@ Route::get('storage-link', function(){
 
         /*-----------------------------EXTRA IMAGES-----------------------------------------------------------*/
             //Create
-            Route::post('administracao/produtos/{id}/adicionarimagem', 'Admim\ExtraImagesController@store')
+            Route::post('administracao/livros/{id}/adicionarimagem', 'Admim\ExtraImagesController@store')
             ->name('admim.products.addImage.store');
 
             //DELETE
-            Route::get('administracao/produtos/{image}/removerimagem', 'Admim\ExtraImagesController@destroy')
+            Route::get('administracao/livros/{image}/removerimagem', 'Admim\ExtraImagesController@destroy')
             ->name('admim.products.addImage.destroy');
         /*---------------------------------------------------------------------------------------------------------*/
 
         /*-----------------------------PRODUCTS COLOR-----------------------------------------------------------*/
             //Create
-            Route::post('administracao/corproduto', 'Admim\ProductColorController@store')
+            Route::post('administracao/livro', 'Admim\ProductColorController@store')
             ->name('admim.productColors.store');
 
             //Delete
-            Route::get('administracao/corproduto/{id}/remove', 'Admim\ProductColorController@destroy')
+            Route::get('administracao/livro/{id}/remove', 'Admim\ProductColorController@destroy')
             ->name('admim.productColors.destroy');
         /*---------------------------------------------------------------------------------------------------------*/
 
 
         /*-----------------------------CATEGORIES PRODUCTS-----------------------------------------------------------*/
             //Create
-            Route::post('administracao/categoriasprodutos', 'Admim\ProductCategorieController@store')
+            Route::post('administracao/categoriaslivros', 'Admim\ProductCategorieController@store')
             ->name('admim.productCategories.store');
 
             //Read
-            Route::get('administracao/categoriasprodutos', 'Admim\ProductCategorieController@index')
+            Route::get('administracao/categoriaslivros', 'Admim\ProductCategorieController@index')
             ->name('admim.productCategories.index');
 
             //Update
-            Route::put('administracao/categoriasprodutos/{id}', 'Admim\ProductCategorieController@update')
+            Route::put('administracao/categoriaslivros/{id}', 'Admim\ProductCategorieController@update')
             ->name('admim.productCategories.update');
 
-            Route::get('administracao/categoriasprodutos/{id}/edit', 'Admim\ProductCategorieController@edit')
+            Route::get('administracao/categoriaslivros/{id}/edit', 'Admim\ProductCategorieController@edit')
             ->name('admim.productCategories.edit');
 
             //Delete
-            Route::get('administracao/categoriasprodutos/{id}/remove', 'Admim\ProductCategorieController@destroy')
+            Route::get('administracao/categoriaslivros/{id}/remove', 'Admim\ProductCategorieController@destroy')
             ->name('admim.productCategories.destroy');
         /*---------------------------------------------------------------------------------------------------------*/
 
         /*----------------------------- PRODUCTS SUB-CATEGORIES -----------------------------------------------------------*/
             //Create
-            Route::post('administracao/subcategoriasprodutos', 'Admim\ProductSubCategorieController@store')
+            Route::post('administracao/subcategoriaslivros', 'Admim\ProductSubCategorieController@store')
             ->name('admim.productSubCategories.store');
 
             //Read
-            Route::get('administracao/subcategoriasprodutos', 'Admim\ProductSubCategorieController@index')
+            Route::get('administracao/subcategoriaslivros', 'Admim\ProductSubCategorieController@index')
             ->name('admim.productSubCategories.index');
 
             //Show
-            Route::get('administracao/subcategoriasprodutos/{id}', 'Admim\ProductSubCategorieController@show')
+            Route::get('administracao/subcategoriaslivros/{id}', 'Admim\ProductSubCategorieController@show')
             ->name('admim.productSubCategories.show');
 
 
             //Update
-            Route::put('administracao/subcategoriasprodutos/{id}', 'Admim\ProductSubCategorieController@update')
+            Route::put('administracao/subcategoriaslivros/{id}', 'Admim\ProductSubCategorieController@update')
             ->name('admim.productSubCategories.update');
 
-            Route::get('administracao/subcategoriasprodutos/{id}/edit', 'Admim\ProductSubCategorieController@edit')
+            Route::get('administracao/subcategoriaslivros/{id}/edit', 'Admim\ProductSubCategorieController@edit')
             ->name('admim.productSubCategories.edit');
 
             //Delete
-            Route::get('administracao/subcategoriasprodutos/{id}/remove', 'Admim\ProductSubCategorieController@destroy')
+            Route::get('administracao/subcategoriaslivros/{id}/remove', 'Admim\ProductSubCategorieController@destroy')
             ->name('admim.productSubCategories.destroy');
         /*---------------------------------------------------------------------------------------------------------*/
 
 
         /*----------------------------- PRODUCTS BRANDS -----------------------------------------------------------*/
             //Create
-            Route::post('administracao/marcasprodutos', 'Admim\ProductBrandController@store')
+            Route::post('administracao/especialidadeslivros', 'Admim\ProductBrandController@store')
             ->name('admim.productBrands.store');
 
             //Read
-            Route::get('administracao/marcasprodutos', 'Admim\ProductBrandController@index')
+            Route::get('administracao/especialidadeslivros', 'Admim\ProductBrandController@index')
             ->name('admim.productBrands.index');
 
             //Update
-            Route::put('administracao/marcasprodutos/{id}', 'Admim\ProductBrandController@update')
+            Route::put('administracao/especialidadeslivros/{id}', 'Admim\ProductBrandController@update')
             ->name('admim.productBrands.update');
 
-            Route::get('administracao/marcasprodutos/{id}/edit', 'Admim\ProductBrandController@edit')
+            Route::get('administracao/especialidadeslivros/{id}/edit', 'Admim\ProductBrandController@edit')
             ->name('admim.productBrands.edit');
 
             //Delete
-            Route::get('administracao/marcasprodutos/{id}/remove', 'Admim\ProductBrandController@destroy')
+            Route::get('administracao/especialidadeslivros/{id}/remove', 'Admim\ProductBrandController@destroy')
             ->name('admim.productBrands.destroy');
 
             //Brand-SubCategorie
-            Route::post('administracao/marcasprodutos/{id}/addsubcategoria', 'Admim\BrandSubCategorieController@store')
+            Route::post('administracao/especialidadeslivros/{id}/addsubcategoria', 'Admim\BrandSubCategorieController@store')
             ->name('admim.productsBrand.addSubCategorie.store');
 
-            //Pegar Marcas relacionadas a uma sub-categoria EDIT
-            Route::get('administracao/marcas/{id}', 'Admim\ProductController@getBrandsAdd');
+            //Pegar especialidades relacionadas a uma sub-categoria EDIT
+            Route::get('administracao/especialidades/{id}', 'Admim\ProductController@getBrandsAdd');
 
-            //Pegar Marcas relacionadas a uma sub-categoria ADD
-            Route::get('administracao/produtos/{outro}/marcas/{id}', 'Admim\ProductController@getBrandsEdit');
+            //Pegar especialidades relacionadas a uma sub-categoria ADD
+            Route::get('administracao/livros/{outro}/especialidades/{id}', 'Admim\ProductController@getBrandsEdit');
         /*---------------------------------------------------------------------------------------------------------*/
 
 
         /*----------------------------- BRAND_SUBCATEGORIE -----------------------------------------------------------*/
             //Create
-            Route::post('administracao/marcasubcategorias', 'Admim\BrandSubcategorieController@store')
+            Route::post('administracao/especialidadesubcategorias', 'Admim\BrandSubcategorieController@store')
             ->name('admim.brandSubcategorie.store');
 
             //Delete
-            Route::get('administracao/marcasubcategorias/{id}/remove', 'Admim\BrandSubcategorieController@destroy')
+            Route::get('administracao/especialidadesubcategorias/{id}/remove', 'Admim\BrandSubcategorieController@destroy')
             ->name('admim.brandSubcategorie.destroy');
         /*---------------------------------------------------------------------------------------------------------*/
 
@@ -580,7 +580,7 @@ Route::get('storage-link', function(){
             Route::put('administracao/exchange', 'Admim\ExchangeController@update')
             ->name('admim.exchange.update');
         /*---------------------------------------------------------------------------------------------------------*/
-        
+
         /*-----------------------------PERCENTAGEM DE PRODUTO--------------------------------------------------------------------*/
         Route::put('administracao/taxa', 'Admim\TaxaController@update')
         ->name('admim.taxa.update');
@@ -654,11 +654,11 @@ Route::get('storage-link', function(){
 
         /*-----------------------------SUPPLY-----------------------------------------------------------*/
             // CRIA NOVO FORNECIMENTO BASEADO EM UM FORNCEDOR
-            Route::post('administracao/fornecedoresproduto/novofornecimento', 'Admim\SupplyController@store')
+            Route::post('administracao/fornecedoreslivro/novofornecimento', 'Admim\SupplyController@store')
             ->name('admim.supply.store');
 
             //Delete
-            Route::get('administracao/fornecedoresproduto/novofornecimento/{id}/remove', 'Admim\SupplyController@destroy')
+            Route::get('administracao/fornecedoreslivro/novofornecimento/{id}/remove', 'Admim\SupplyController@destroy')
             ->name('admim.supply.destroy');
         /*---------------------------------------------------------------------------------------------------------*/
 

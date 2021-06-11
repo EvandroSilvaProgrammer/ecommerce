@@ -1,8 +1,8 @@
 
 @extends('admim.master.layout')
 
-@section('title', 'Gestão de Categorias dos Produtos')
-@section('pageHeader', 'Gestão de Categorias dos Produtos')
+@section('title', 'Gestão de Categorias dos Livros')
+@section('pageHeader', 'Gestão de Categorias dos Livros')
 
 
 @section('content')
@@ -17,7 +17,7 @@
                 <!-- general form elements -->
                 <div class="box box-primary">
                     <div class="box-header with-border">
-                        <h3 class="box-title">Cadastrar Categoria dos Produtos</h3>
+                        <h3 class="box-title">Cadastrar Categoria dos Livros</h3>
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->
@@ -45,7 +45,7 @@
     </section>
     @endcan
 
-    @can('Visualizar Categoria dos Produtos')
+    @can('Visualizar Categoria dos Livros')
     <div class="box">
         <div class="box-header">
             <h3 class="box-title">Lista de Categorias</h3>

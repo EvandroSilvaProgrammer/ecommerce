@@ -44,7 +44,7 @@
                             </div>
 
                             <div class="form-group">
-                                <label>Produto</label>
+                                <label>Livro</label>
                                 <select name="product" class="form-control select2" style="width: 100%;">
                                     @foreach ($products as $product)
                                         @if ($product->eliminado == 'no')

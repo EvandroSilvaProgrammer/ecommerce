@@ -15,7 +15,7 @@
                                 <!-- general form elements -->
                                 <div class="box box-primary">
                                     <div class="box-header with-border">
-                                        <h3 class="box-title">Adicionar marca a sub-categoria {{$subcategorie->name}}</h3>
+                                        <h3 class="box-title">Adicionar especialidade a sub-categoria {{$subcategorie->name}}</h3>
                                     </div>
                                     <!-- /.box-header -->
 
@@ -26,7 +26,7 @@
                                             <input type="hidden" name="subcategorie" value="{{$subcategorie->id}}">
 
                                             <div class="form-group">
-                                                <label class="exampleInputFile" for="exampleInputEmail1">Marcas</label>
+                                                <label class="exampleInputFile" for="exampleInputEmail1">Especialidades</label>
                                                 <select name="brand" class="form-control select2" style="width: 100%;">
                                                     @foreach ($brands as $brand)
                                                         <option value="{{$brand->id}}">{{$brand->name}}</option>

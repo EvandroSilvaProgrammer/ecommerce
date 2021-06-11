@@ -88,12 +88,12 @@
 
     .fa-chevron-right
     {
-        color: #103225;
+        color: #02376d;
     }
 
     .fa-chevron-left
     {
-        color: #103225;
+        color: #02376d;
     }
 
     .carousel-indicators
@@ -103,7 +103,7 @@
 
     .carousel-indicators .active
     {
-        background-color: #009240;
+        background-color: #0A66C2;
     }
 
     .carousel-indicators li
@@ -202,12 +202,12 @@
 
     .fa-chevron-right
     {
-        color: #103225;
+        color: #02376d;
     }
 
     .fa-chevron-left
     {
-        color: #103225;
+        color: #02376d;
     }
 
     .carousel-indicators
@@ -217,7 +217,7 @@
 
     .carousel-indicators .active
     {
-        background-color: #009240;
+        background-color: #0A66C2;
     }
 
     .carousel-indicators li
@@ -293,10 +293,10 @@
         transition: all 200ms ease;
     }
     .standard_dropdown li a:hover{
-        border-top: 2px solid #009240;
-        /* border-bottom: 2px solid #009240; */
+        border-top: 2px solid #0A66C2;
+        /* border-bottom: 2px solid #0A66C2; */
         /* background-color: white; */
-        color: #009240;
+        color: #0A66C2;
         transition: all 0.5s ease;
     }
     .standard_dropdown li a i {
@@ -377,12 +377,12 @@
 
     .fa-chevron-right
     {
-        color: #103225;
+        color: #02376d;
     }
 
     .fa-chevron-left
     {
-        color: #103225;
+        color: #02376d;
     }
 
     .carousel-indicators
@@ -392,7 +392,7 @@
 
     .carousel-indicators .active
     {
-        background-color: #009240;
+        background-color: #0A66C2;
     }
 
     .carousel-indicators li

@@ -1,8 +1,8 @@
 
 @extends('admim.master.layout')
 
-@section('title', 'Gestão de Produtos')
-@section('pageHeader', "Actualizar Produtos")
+@section('title', 'Gestão de Livros')
+@section('pageHeader', "Actualizar Livros")
 
 
 @section('content')
@@ -35,7 +35,7 @@
                         <div class="box-body">
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Nome</label>
-                                <input name="name" type="text" class="form-control" id="exampleInputEmail1" placeholder="Nome do produto" value="{{$product->name}}">
+                                <input name="name" type="text" class="form-control" id="exampleInputEmail1" placeholder="Nome do Livro" value="{{$product->name}}">
                             </div>
 
                             <div class="form-group">
@@ -52,7 +52,7 @@
                             </div>
 
                             <div class="form-group">
-                                <label>Marca</label>
+                                <label>Especialidade</label>
                                 <select name="brand" id="brand" class="form-control select2" style="width: 100%;">
                                     @foreach ($brands as $brand)
                                         @if ($brand->id == $product->brand)
@@ -65,12 +65,12 @@
                             {{-- <input name="new_price" type="hidden" value="{{$product->new_price}}"> --}}
                             <div class="form-group">
                                 <label for="exampleInputPassword1">Preço</label>
-                                <input name="old_price" type="text" class="form-control" id="price" placeholder="Preço do produto" value="{{$product->old_price}}">
+                                <input name="old_price" type="text" class="form-control" id="price" placeholder="Preço do livro" value="{{$product->old_price}}">
                             </div>
 
                             <div class="form-group">
                                 <label for="exampleInputPassword1">Desconto</label>
-                                <input name="discount" type="number" class="form-control" id="exampleInputPassword1" placeholder="Preço do produto" value="{{$product->discount}}">
+                                <input name="discount" type="number" class="form-control" id="exampleInputPassword1" placeholder="Preço do livro" value="{{$product->discount}}">
                             </div>
 
                             <div class="form-group">
@@ -93,7 +93,7 @@
                                         </div>
                                         <!-- /.box-header -->
                                         <div class="box-body pad">
-                                            <textarea name="description"  class="textarea" placeholder="Descrição do produto"
+                                            <textarea name="description"  class="textarea" placeholder="Descrição do livro"
                                             style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;">{{$product->description}}</textarea>
                                         </div>
                                     </div>
@@ -103,7 +103,7 @@
                             </div>
 
                             <div class="form-group">
-                                <label for="exampleInputFile">Imagem do produto</label>
+                                <label for="exampleInputFile">Imagem do livro</label>
                                 <input name="image" type="file" id="exampleInputFile">
                             </div>
 

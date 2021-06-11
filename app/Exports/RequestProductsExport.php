@@ -54,7 +54,7 @@ class RequestProductsExport implements FromQuery, WithHeadings, WithEvents, Shou
     public function headings(): array
     {
         return [
-            'Produto',
+            'Livro',
             'Status',
             'Preço',
             'Qtd',

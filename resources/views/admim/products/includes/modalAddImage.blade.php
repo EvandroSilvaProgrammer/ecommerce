@@ -15,7 +15,7 @@
                                 <!-- general form elements -->
                                 <div class="box box-primary">
                                     <div class="box-header with-border">
-                                        <h3 class="box-title">Adicionar Imagens ao produto {{$product->name}}</h3>
+                                        <h3 class="box-title">Adicionar Imagens ao livro {{$product->name}}</h3>
                                     </div>
                                     <!-- /.box-header -->
 
@@ -25,7 +25,7 @@
                                         <div class="box-body">
                                             <input type="hidden" name="product" value="{{$product->id}}">
                                             <div class="form-group">
-                                                <label class="exampleInputFile" for="exampleInputFile">Imagem do produto</label>
+                                                <label class="exampleInputFile" for="exampleInputFile">Imagem do livro</label>
                                                 <input name="image" type="file" id="exampleInputFile">
                                             </div>
                                         </div>

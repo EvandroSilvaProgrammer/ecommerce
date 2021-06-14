@@ -212,7 +212,7 @@
                                     Multicaixa
                                 </label>
                                 <div class="caption">
-                                    <p>No multicaixa vá até a opção PAGAMENTOS -> SERVIÇOS -> DORIEMA -> </p>
+                                    <p>No multicaixa vá até a opção PAGAMENTOS -> SERVIÇOS -> Trutaa -> </p>
                                 </div>
                             </div> --}}
 

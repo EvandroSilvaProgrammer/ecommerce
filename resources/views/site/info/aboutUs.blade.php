@@ -17,22 +17,12 @@
             <div id="store" class="col-md-12">
                 <!-- store products -->
                 <div class="row">
-                    <p>A Doriema, Lda é uma empresa de direito angolano, constituída em 2013, integradora de soluções globais nas áreas de
-                        telecomunicações, informática, materiais de escritório e prestação de serviços, adaptadas às necessidades reais de cada cliente.
-                        Actuamos na Província do Namibe, estando essencialmente direccionados para o mercado de PME’s, Organismos do Estado e
-                        Particulares. <br><br>
-                        Acreditamos que podemos marcar a diferença e que as nossas soluções constituem uma vantagem competitiva para os nossos
-                        Clientes, sendo o nosso compromisso colocar à sua disposição produtos fiáveis e de qualidade. <br><br>
-                        Por esse mesmo motivo, apostamos em parcerias com os melhores fabricantes nas áreas em que actuamos, no
-                        recrutamento e na formação constante dos nossos colaboradores.
-                        Os nossos clientes podem ainda contar com um acompanhamento personalizado por parte de colaboradores experientes, o que lhes
-                        permite usufruir de serviços de excelência. <br><br>
-                        Estamos permanentemente atentos aos novos desafios a que os nossos Clientes estão sujeitos para conseguir corresponder às novas
-                        abordagens de mercado. Procuramos criar relações de confiança e a longo prazo com os nossos Clientes porque o futuro é um lugar
-                        importante para nós. <br><br>
-                        Pretendemos desta forma ser um parceiro estratégico para os nossos clientes, intervindo em sectores exigentes e respondendo com
-                        eficácia e eficiência aos desafios colocados.</p>
+                    <p>
+                    O Trutaa: É uma plataforma acessível a partir de qualquer dispositivo smart (computador, telemóvel, tablet) que ira conectar os grandes livros académicos e científicos aos estudantes, professores, pessoas com vontade de aprender e amantes da leitura, permitindo a estes leitores terem acesso aos mais variados títulos e referências bibliográficas de grande qualidade e puder pagar de modo parcelado ou na totalidade enquanto aguarda a recepção do livro no endereço a escolha do leitor ou cliente. Dando a possibilidade de tornar as pessoas cada vez mais inteligentes, profissionais realmente capazes em suas áreas de atuação e cada vez mais amantes e consumidores do melhor conhecimento. <br> <br>
 
+                    Aqueles que desejam tornar-se leitores poderão ver todos os livros disponíveis na livraria/biblioteca de forma simples e fácil com auxilio de filtros organizados por categorias e subcategorias(Engenharia, Direito, Economia, Ciências, Medicina, entre outros) ter acesso um pequeno resumo informativo de 5 a 10 linhas que descreve a grande utilidade do titulo ou livro em questão e caso seja do seu interesse poderá deste modo solicitar a encomenda pela modalidade completa ou por parcela.
+                    Os leitores podem através da plataforma disponibilizar um endereço para posterior entrega do livro no devido prazo que deve receber a encomenda e deste modo ir acompanhado o estado da sua encomenda.
+                    </p>
                 </div>
                 <!-- /store products -->
 

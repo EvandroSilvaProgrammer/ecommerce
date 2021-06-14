@@ -15,7 +15,7 @@
                                 <!-- general form elements -->
                                 <div class="box box-primary">
                                     <div class="box-header with-border">
-                                        <h3 style="text-align: center" class="box-title">Criar uma conta Doriema! Mais fácil seria difícil.</h3>
+                                        <h3 style="text-align: center" class="box-title">Criar uma conta Trutaa! Mais fácil seria difícil.</h3>
                                     </div> <br>
                                     <!-- /.box-header -->
 
@@ -23,18 +23,18 @@
                                         @if ( Session::has('nameError') )
                                             <div class="alert alert-danger" role="alert">
                                                 {{ Session::get('nameError') }}
-                                            </div> 
+                                            </div>
 
                                             <script>
                                                 window.onload = function teste(){
                                                     $('#modal-client-checkout-register').modal('show')
                                                 };
                                             </script>
-                                            
+
                                         @elseif ( Session::has('emailError') )
                                             <div class="alert alert-danger" role="alert">
                                                 {{ Session::get('emailError') }}
-                                            </div> 
+                                            </div>
 
                                             <script>
                                                 window.onload = function teste(){
@@ -45,7 +45,7 @@
                                         @elseif ( Session::has('emailError2') )
                                             <div class="alert alert-danger" role="alert">
                                                 {{ Session::get('emailError2') }}
-                                            </div> 
+                                            </div>
 
                                             <script>
                                                 window.onload = function teste(){
@@ -56,18 +56,18 @@
                                         @elseif ( Session::has('passwordError') )
                                             <div class="alert alert-danger" role="alert">
                                                 {{ Session::get('passwordError') }}
-                                            </div> 
+                                            </div>
 
                                             <script>
                                                 window.onload = function teste(){
                                                     $('#modal-client-checkout-register').modal('show')
                                                 };
                                             </script>
-                                        
+
                                         @elseif ( Session::has('passwordsError') )
                                             <div class="alert alert-danger" role="alert">
                                                 {{ Session::get('passwordsError') }}
-                                            </div> 
+                                            </div>
 
                                             <script>
                                                 window.onload = function teste(){

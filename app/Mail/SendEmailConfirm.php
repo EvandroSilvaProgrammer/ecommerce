@@ -33,8 +33,6 @@ class SendEmailConfirm extends Mailable
      */
     public function build()
     {
-
-
         $purchases = Pedido::where([
             'id' => $this->idReq,
         ])->orderBy('created_at', 'DESC')->get();
@@ -51,8 +49,6 @@ class SendEmailConfirm extends Mailable
 
         $this->subject('Confirmação de Pagamento');
         $this->to($client->email, $client->name);
-
-
 
         return $this->markdown('site.email.emailConfirm', [
             'client' => $client,

@@ -45,11 +45,8 @@ class SendEmailFinal extends Mailable
         $client = Client::find($purchase->client_id);
         $clientContacts = ClientContact::where('client_id', '=', $purchase->client_id)->get();
 
-
         $this->subject('Entrega de Encomenda');
         $this->to($client->email, $client->name);
-
-
 
         return $this->markdown('site.email.emailFinal', [
             'client' => $client,

@@ -49,11 +49,11 @@ class ShopCartController extends Controller
         $categories = DB::select(" SELECT DISTINCT product_categorie_tb.* FROM product_categorie_tb, product_subcategorie_tb, product_tb
         WHERE product_tb.subcategorie = product_subcategorie_tb.id
         AND product_subcategorie_tb.categorie = product_categorie_tb.id
-        AND product_tb.status = 'online' AND product_categorie_tb.eliminado = 'no'  ");
+        AND product_tb.status = 'online' AND product_categorie_tb.eliminado = 'no' ORDER BY product_categorie_tb.description ASC ");
 
         $subcategories = DB::select(" SELECT DISTINCT product_subcategorie_tb.* FROM product_subcategorie_tb, product_tb
         WHERE product_tb.subcategorie = product_subcategorie_tb.id
-        AND product_tb.status = 'online' AND product_subcategorie_tb.eliminado = 'no' ");
+        AND product_tb.status = 'online' AND product_subcategorie_tb.eliminado = 'no' ORDER BY product_subcategorie_tb.name ASC ");
 
        // $services = DB::select(" SELECT * FROM service_tb WHERE status = 'online' ORDER BY id DESC ");
 
@@ -301,14 +301,14 @@ class ShopCartController extends Controller
 
 
        // DEFAULT PRO MENU
-        $categories = DB::select(" SELECT DISTINCT product_categorie_tb.* FROM product_categorie_tb, product_subcategorie_tb, product_tb
-        WHERE product_tb.subcategorie = product_subcategorie_tb.id
-        AND product_subcategorie_tb.categorie = product_categorie_tb.id
-        AND product_tb.status = 'online' AND product_categorie_tb.eliminado = 'no'  ");
+       $categories = DB::select(" SELECT DISTINCT product_categorie_tb.* FROM product_categorie_tb, product_subcategorie_tb, product_tb
+       WHERE product_tb.subcategorie = product_subcategorie_tb.id
+       AND product_subcategorie_tb.categorie = product_categorie_tb.id
+       AND product_tb.status = 'online' AND product_categorie_tb.eliminado = 'no' ORDER BY product_categorie_tb.description ASC ");
 
-        $subcategories = DB::select(" SELECT DISTINCT product_subcategorie_tb.* FROM product_subcategorie_tb, product_tb
-        WHERE product_tb.subcategorie = product_subcategorie_tb.id
-        AND product_tb.status = 'online' AND product_subcategorie_tb.eliminado = 'no' ");
+       $subcategories = DB::select(" SELECT DISTINCT product_subcategorie_tb.* FROM product_subcategorie_tb, product_tb
+       WHERE product_tb.subcategorie = product_subcategorie_tb.id
+       AND product_tb.status = 'online' AND product_subcategorie_tb.eliminado = 'no' ORDER BY product_subcategorie_tb.name ASC ");
 
        // $services = DB::select(" SELECT * FROM service_tb WHERE status = 'online' ORDER BY id DESC ");
 

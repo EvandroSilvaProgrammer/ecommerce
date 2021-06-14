@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <title>@yield('title') - Doriema Admin</title>
+    <title>@yield('title') - Trutaa Admin</title>
 
     {{-- Tell the browser to be responsive to screen width --}}
     <link rel="stylesheet" href="{{asset('admim/bower_components/bootstrap/dist/css/bootstrap.min.css')}}">
@@ -49,9 +49,9 @@
             <!-- Logo -->
             <a href="{{route('admim')}}" class="logo">
                 <!-- mini logo for sidebar mini 50x50 pixels -->
-                <span class="logo-mini"><b>D</b>Lda</span>
+                <span class="logo-mini"><b>T</b></span>
                 <!-- logo for regular state and mobile devices -->
-                <span class="logo-lg"><b>Doriema</b> Lda</span>
+                <span class="logo-lg"><b>Trutaa</b></span>
             </a>
 
             <!-- Header Navbar -->

@@ -1,0 +1,48 @@
+.section-heading-1{
+	float:left;
+	width:100%;
+	text-align:center;
+	margin-bottom:36px;
+	position:relative;
+	margin-top:-5px;
+}
+.section-heading-1 h2{
+	font-size:32px;
+	text-align:center;
+	font-family: 'Raleway', sans-serif;
+	text-transform:capitalize;
+}
+.kode-icon{
+	float:left;
+	width:100%;
+}
+.section-heading-1 .kode-icon:before, .section-heading-1 .kode-icon:after{
+	content:"";
+	position:absolute;
+	left:35%;
+	margin:auto;
+	bottom:14px;
+	width:150px;
+	height:1px;
+	background-color:#CCC;
+}
+.section-heading-1 .kode-icon:after{
+	left:auto;
+	right:35%;
+
+}
+.section-heading-1 i{
+	font-size:20px;
+	color:#333;
+}
+.section-heading-1.dark-sec h2,  .section-heading-1.dark-sec p, .section-heading-1.dark-sec p:after, .section-heading-1.dark-sec i{
+	color:#fff;
+}
+.section-heading-1.dark-sec{
+}
+.section-heading-1.dark-sec p:before, .section-heading-1.dark-sec p:after{
+	background-color:#fff;
+}
+.section-heading-1 p{
+	margin-bottom:17px;
+}

@@ -58,7 +58,7 @@ class SendEmailCompra extends Mailable
 
         //dd($requestProducts);
 
-        $this->subject('Nova Encomenda - Doriema Online');
+        $this->subject('Nova Encomenda');
         $this->to($this->user->email, $this->user->name);
 
         return $this->markdown('site.email.emailCompra', [

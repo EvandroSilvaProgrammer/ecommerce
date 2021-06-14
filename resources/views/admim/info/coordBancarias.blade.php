@@ -1,6 +1,6 @@
 @extends('admim.master.layout')
 
-@section('title', 'Doriema Online - Coordenadas Bancárias')
+@section('title', 'Trutaa - Coordenadas Bancárias')
 @section('pageHeader', 'Coordenadas Bancárias')
 
 

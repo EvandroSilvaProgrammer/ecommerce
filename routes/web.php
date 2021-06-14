@@ -149,8 +149,8 @@ Route::get('storage-link', function(){
         $user = Client::find(Auth::guard('client')->id());
 
         $admin = new stdClass();
-        $admin->name = 'Doriema Online';
-        $admin->email = 'info@doriema.com';
+        $admin->name = 'Trutaa - Livraria';
+        $admin->email = 'evandrosilva.ucan@gmail.com';
 
         Mail::send(new sendEmailAdmin($admin, $idRequest)); // Envio de email para o Admin (app/Mail/SendEmailAdmin)
         Mail::send(new SendEmailCompra($user, $idRequest));// Envio de email para o Cliente (app/Mail/SendEmailCompra)
@@ -158,7 +158,6 @@ Route::get('storage-link', function(){
         return redirect()->route('shopCart.purchases');
 
         // return (new SendEmailCompra($user, $idRequest));
-
 
     })->name('sendEmail.Compra');
 

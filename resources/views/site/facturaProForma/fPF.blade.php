@@ -314,8 +314,7 @@
 
     <footer>
         <p style="text-align: center">
-            PREÇOS COM IVA INCLUIDO À TAXA DE 14%, ENCOMENDE NA LOJA ONLINE E RECEBA
-COMODAMENTE EM QUALQUER LUGAR.
+            <!-- rodape factura-proforma -->
         </p>
     </footer>
 

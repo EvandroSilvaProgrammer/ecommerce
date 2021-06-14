@@ -40,7 +40,7 @@
         <div class="col-sm-4 invoice-col">
           De
           <address>
-            <strong>Doriema LDA</strong><br>
+            <strong>Trutaa</strong><br>
             Rua Kahumba Nº 75<br>
             Namibe, Angola<br>
             Telefone: +244 930 396 093<br>

@@ -23,8 +23,13 @@ class HomeController extends Controller
 
     public function showHome()
     {
-        $products = ProductModel::where('status', 'online')->orderBy('id', 'DESC')->get();
-
+        $products = ProductModel::where('status', 'online')
+                                ->where('categorie', '1')
+                                ->orWhere(function($query) {
+                                    $query->where('categorie', '2')
+                                          ->orWhere('categorie', '4');
+                                })
+                                ->orderBy('id', 'DESC')->get();
         /*
         $servicesAll = DB::select(" SELECT * FROM service_tb WHERE status = 'Online' ORDER BY id DESC ");
         */
@@ -56,11 +61,11 @@ class HomeController extends Controller
         $categories = DB::select(" SELECT DISTINCT product_categorie_tb.* FROM product_categorie_tb, product_subcategorie_tb, product_tb
         WHERE product_tb.subcategorie = product_subcategorie_tb.id
         AND product_subcategorie_tb.categorie = product_categorie_tb.id
-        AND product_tb.status = 'online' AND product_categorie_tb.eliminado = 'no'  ");
+        AND product_tb.status = 'online' AND product_categorie_tb.eliminado = 'no' ORDER BY product_categorie_tb.description ASC ");
 
         $subcategories = DB::select(" SELECT DISTINCT product_subcategorie_tb.* FROM product_subcategorie_tb, product_tb
         WHERE product_tb.subcategorie = product_subcategorie_tb.id
-        AND product_tb.status = 'online' AND product_subcategorie_tb.eliminado = 'no' ");
+        AND product_tb.status = 'online' AND product_subcategorie_tb.eliminado = 'no' ORDER BY product_subcategorie_tb.name ASC ");
 
         //$services = DB::select(" SELECT * FROM service_tb WHERE status = 'online' ");
 

@@ -15,7 +15,7 @@
                                 <!-- general form elements -->
                                 <div class="box box-primary">
                                     <div class="box-header with-border">
-                                        <h3 style="text-align: center" class="box-title">Criar uma conta Doriema! Mais fácil seria difícil.</h3>
+                                        <h3 style="text-align: center" class="box-title">Criar uma conta Trutaa! Mais fácil seria difícil.</h3>
                                     </div> <br>
                                     <!-- /.box-header -->
 
@@ -34,7 +34,7 @@
                                         @elseif ( Session::has('passwordError') )
                                             <div class="alert alert-danger" role="alert">
                                                 {{ Session::get('passwordError') }}
-                                            </div> 
+                                            </div>
 
                                             <script>
                                                 window.onload = function teste(){
@@ -120,6 +120,6 @@
                 capsLock2.style.display = "none";
             }
         });
-        
+
     </script>
 @endpush

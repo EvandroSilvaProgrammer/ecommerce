@@ -11,17 +11,12 @@
 <table align="center" border="1" cellpadding="0" cellspacing="0" width="600">
         <tr>
             <td align="center" bgcolor="#ffffff" style="padding: 40px 0 30px 0;">
-                <img src="{{asset('site/img/logo.png')}}" alt="Logo Doriema" width="200" height="100" style="display: block;" />
+                <img src="{{asset('site/img/logo.png')}}" alt="Logo Trutaa" width="200" height="100" style="display: block;" />
             </td>
         </tr>
         <tr>
             <td bgcolor="#ffffff" style="padding: 40px 30px 40px 30px;">
                 <table border="1" cellpadding="0" cellspacing="0" width="100%">
-                    <tr>
-                        <td>
-                            <h3> NOVA ENCOMENDA </h3>
-                        </td>
-                    </tr>
                     <tr>
                         <td style="padding: 20px 0 30px 0;">
                             @foreach ($requests as $request)

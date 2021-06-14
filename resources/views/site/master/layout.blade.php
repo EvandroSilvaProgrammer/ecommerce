@@ -9,6 +9,8 @@
 
     <title>@yield('title') - Trutaa Livraria online</title>
 
+    @stack('stylesBookReader')
+
     @stack('stylesProducts')
 
     @stack('checkoutStyle')
@@ -16,6 +18,7 @@
     @stack('StyleCart')
 
     @stack('clientRegister_Styles')
+
 
 
     <!-- Google font -->
@@ -344,7 +347,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="newsletter">
-                            <p>Todas as Novidades <strong>Doriema </strong>no seu Email</p>
+                            <p>Todas as Novidades <strong>Trutaa </strong>no seu Email</p>
                             <form action="{{route('newslleter.store')}}" method="POST" enctype="multipart/form-data" role="form">
                                 @csrf
                                 <input class="input" name="email" type="email" placeholder="Insira o seu email">
@@ -352,13 +355,13 @@
                             </form>
                             <ul class="newsletter-follow">
                                 <li>
-                                    <a href="https://www.facebook.com/Doriema-1471962919737387/"><i class="fa fa-facebook"></i></a>
+                                    <a href="https://www.facebook.com/trutaa.tecnologies/" target="_blank"><i class="fa fa-facebook"></i></a>
                                 </li>
                                 <li>
-                                    <a href="https://api.whatsapp.com/send?phone=244926262741&text=&source=&data=&app_absent="><i class="fa fa-whatsapp"></i></a>
+                                    <a href="https://api.whatsapp.com/send?phone=244940047896&text=&source=&data=&app_absent=" target="_blank"><i class="fa fa-whatsapp"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                    <a href="https://www.linkedin.com/company/trutaa/" target="_blank"><i class="fa fa-linkedin"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -371,7 +374,7 @@
         <!-- /NEWSLETTER -->
 
 
-        <a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=244926262741&text=&source=&data=&app_absent=" target="_blank">
+        <a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=244940047896&text=&source=&data=&app_absent=" target="_blank">
             <i class="fa fa-whatsapp"></i>
         </a>
 
@@ -482,6 +485,8 @@
         @stack('loginScript')
 
         @stack('clientRegister_Script')
+
+        @stack('scriptsBookReader')
 
         <script src="{{asset('site/js/bootstrap.min.js')}}"></script>
         <script src="{{asset('site/js/slick.min.js')}}"></script>

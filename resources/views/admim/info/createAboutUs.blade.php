@@ -1,6 +1,6 @@
 @extends('admim.master.layout')
 
-@section('title', 'Doriema Online - Sobre Nós')
+@section('title', 'Trutaa - Sobre Nós')
 @section('pageHeader', 'Sobre Nós')
 
 
@@ -28,8 +28,8 @@
                         @csrf
                         <div class="box-body">
                             <div class="form-group">
-                                <label for="exampleInputEmail1">Informações sobre Doriema</label>
-                                <textarea name="description"  class="textarea" placeholder="Descrição sobre a Doriema"
+                                <label for="exampleInputEmail1">Informações sobre Trutaa</label>
+                                <textarea name="description"  class="textarea" placeholder="Descrição sobre o Trutaa"
                                             style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;">{{old('description')}}</textarea>
                             </div>
                             <div class="box-footer">
@@ -46,7 +46,7 @@
     @can('Visualizar Produtos')
     <div class="box">
         <div class="box-header">
-            <h3 class="box-title">Sobre a Doriema</h3>
+            <h3 class="box-title">Sobre o Trutaa</h3>
         </div>
         <!-- /.box-header -->
         <div class="box-body">

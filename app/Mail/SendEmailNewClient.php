@@ -28,7 +28,7 @@ class SendEmailNewClient extends Mailable
      */
     public function build()
     {
-        $this->subject('Boas Vindas - Doriema Online');
+        $this->subject('Boas Vindas - Trutaa Livraria Online');
         $this->to($this->client->email, $this->client->name);
 
         return $this->markdown('site.email.emailNewClient', [

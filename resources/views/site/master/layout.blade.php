@@ -358,6 +358,9 @@
                                     <a href="https://www.facebook.com/trutaa.tecnologies/" target="_blank"><i class="fa fa-facebook"></i></a>
                                 </li>
                                 <li>
+                                    <a href="https://www.instagram.com/trutaa.tecnologies/" target="_blank"><i class="fa fa-instagram"></i></a>
+                                </li>
+                                <li>
                                     <a href="https://api.whatsapp.com/send?phone=244940047896&text=&source=&data=&app_absent=" target="_blank"><i class="fa fa-whatsapp"></i></a>
                                 </li>
                                 <li>
@@ -393,7 +396,7 @@
                         <div class="col-md-4 col-xs-6">
                             <div class="footer">
                                 <h3 class="footer-title">Trutaa</h3>
-                                <p>BLA BLA BLA BLA BLA BLA</p><br><br>
+                                <p>As informações que você deseja das fontes bibliográficas em que você confia.</p><br><br>
                                 <ul class="footer-links">
                                     <li><a href="{{route('aboutUs.info')}}">Sobre Nós</a></li>
                                     <li><a href="{{route('terms.info')}}">Termos e Condições</a></li>

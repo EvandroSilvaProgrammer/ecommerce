@@ -166,7 +166,7 @@
                         <!-- /aside Widget -->
 
                         <div class="search-categories">
-                            <button type="submit" class="btn-search-categories"><i class=""></i>Fazer pesquisa personalida</button>
+                            <button type="submit" class="btn-search-categories"><i class=""></i>Fazer pesquisa personalizada</button>
                         </div>
                     </form>
 

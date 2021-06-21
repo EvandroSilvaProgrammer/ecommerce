@@ -13,7 +13,7 @@
                             <!-- left column -->
                             <div class="col-md-12">
 
-                                <h2 style="text-align: center">Termos e Condições Gerais de Venda e utilização do site www.Doriema.com</h2><br>
+                                <h2 style="text-align: center">Termos e Condições Gerais de Venda e utilização do site app.trutaa.com</h2><br>
 
                                 <div id="store" class="col-md-12">
                                     <!-- store products -->

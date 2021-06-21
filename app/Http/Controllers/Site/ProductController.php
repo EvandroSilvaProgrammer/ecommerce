@@ -39,9 +39,10 @@ class ProductController extends Controller
 
         $brandsCategorie = DB::select(" SELECT DISTINCT product_brand_tb.* FROM product_brand_tb, product_tb, product_categorie_tb, product_subcategorie_tb
         WHERE product_tb.brand =  product_brand_tb.id
+        AND product_brand_tb.name <> 'Sem especialidade'
         AND product_tb.subcategorie = product_subcategorie_tb.id
         AND  product_subcategorie_tb.categorie = product_categorie_tb.id
-        AND product_tb.status = 'online' AND product_brand_tb.eliminado = 'no' ");
+        AND product_tb.status = 'online' AND product_brand_tb.eliminado = 'no' ORDER BY product_brand_tb.name ASC ");
 
         // DEFAULT PRO MENU
             $brands = DB::select(" SELECT * FROM product_brand_tb ORDER BY name ");
@@ -239,9 +240,10 @@ class ProductController extends Controller
 
         $brandsCategorie = DB::select(" SELECT DISTINCT product_brand_tb.* FROM product_brand_tb, product_tb, product_categorie_tb, product_subcategorie_tb
         WHERE product_tb.brand =  product_brand_tb.id
+        AND product_brand_tb.name <> 'Sem especialidade'
         AND product_tb.subcategorie = product_subcategorie_tb.id
         AND  product_subcategorie_tb.categorie = product_categorie_tb.id
-        AND product_tb.status = 'online' AND product_brand_tb.eliminado = 'no' ");
+        AND product_tb.status = 'online' AND product_brand_tb.eliminado = 'no' ORDER BY product_brand_tb.name ASC ");
 
         // DEFAULT PRO MENU
             $brands = DB::select(" SELECT * FROM product_brand_tb ORDER BY name ");

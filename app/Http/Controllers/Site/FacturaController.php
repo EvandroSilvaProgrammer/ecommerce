@@ -45,6 +45,8 @@ class FacturaController extends Controller
             "requestProducts" => $requestProducts,
         ]);
 
+        //$PDF->save(storage_path ("Pró-forma refer.:{$request_id}.pdf ") );
+
         return $PDF->setPaper('a4')->stream("Trutaa - Factura Pró-forma refer.:{$request_id}.pdf");
     }
 

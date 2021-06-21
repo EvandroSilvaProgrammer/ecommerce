@@ -26,7 +26,7 @@ Auth::routes();
 
 // STORAGE LINK COMMAND
 
-/*
+
 Route::get('storage-link', function(){
     if (file_exists(public_path('storage'))) {
             return 'The "public/storage" directory already exists.';
@@ -39,7 +39,7 @@ Route::get('storage-link', function(){
         return 'The [public/storage] directory has been linked.';
 });
 
-*/
+
 
 /*-------------------------------------------*/
 /*              SITES ROUTES                 */
@@ -185,9 +185,8 @@ Route::get('storage-link', function(){
     //Envio de emails para confirmação de pagamento
     Route::get('emailConfirm/{idReq}', function($idReq) {
 
-        $client = Client::find(Auth::guard('client')->id());
 
-        Mail::send(new SendEmailConfirm($client, $idReq));
+        Mail::send(new SendEmailConfirm($idReq));
 
         return redirect()->back();
 
@@ -202,9 +201,8 @@ Route::get('storage-link', function(){
     //Envio de emails para confirmação de pagamento
     Route::get('emailFinal/{idReq}', function($idReq) {
 
-        $client = Client::find(Auth::guard('client')->id());
 
-        Mail::send(new SendEmailFinal($client, $idReq));
+        Mail::send(new SendEmailFinal($idReq));
 
         return redirect()->back();
 

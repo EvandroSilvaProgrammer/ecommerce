@@ -26,7 +26,9 @@
     <div class="product-body">
         @foreach ($brands as $brand)
             @if ($brand->id == $product->brand)
-                <p class="product-category">{{$brand->name}}</p>
+                @if ($brand->name != 'Sem especialidade')
+                    <p class="product-category">{{$brand->name}}</p>
+                @endif
             @endif
         @endforeach
 

@@ -1240,7 +1240,7 @@ select option
 .cart_item_image
 {
 	width: 133px;
-	height: 133px;
+	/* height: 133px; */
 	float: left;
 }
 .cart_item_image img

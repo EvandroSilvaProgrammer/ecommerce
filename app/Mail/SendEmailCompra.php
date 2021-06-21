@@ -34,7 +34,6 @@ class SendEmailCompra extends Mailable
     {
         // Efectuar a consulta para a referência do pedido do cliente em questão, valor total do pedido, etc...
         $requests = DB::select("
-
             SELECT request.*, client.name as clientname,
             client.email, client.telephone
 
@@ -56,15 +55,17 @@ class SendEmailCompra extends Mailable
 
         $coordenadas = DB::select(" SELECT * FROM coord_bancarias ");
 
-        //dd($requestProducts);
+        $contacts = DB::select(" SELECT * FROM contacts_doriema ");
 
         $this->subject('Nova Encomenda');
         $this->to($this->user->email, $this->user->name);
+        //$this->attach( asset("Pró-forma refer.:{$this->idRequest}.pdf") );
 
         return $this->markdown('site.email.emailCompra', [
             'requests' => $requests,
             'requestProducts' => $requestProducts,
-            'coordenadas' => $coordenadas
+            'coordenadas' => $coordenadas,
+            'contacts' => $contacts
         ]);
     }
 }

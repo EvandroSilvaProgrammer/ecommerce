@@ -24,7 +24,7 @@
             <img src="{{asset('site/img/trutaa.png')}}" class="imageShow" alt="Chania">
             <div class="carousel-caption">
                 <div class="hot-deal">
-                    <h5 class="tt"><p>No Trutaa Bla bla bla bla bla bla bla bla bla.</p></h5>
+                    <h5 class="tt"><p>As informações que você deseja das fontes bibliográficas em que você confia.</p></h5>
                     <h5>Encontre os melhores livros aqui.</h5>
                 </div>
             </div>
@@ -189,7 +189,7 @@
                             <br><br><br><br>
 
                             @if (isset($promotion))
-                                <div class="container">
+                                <div class="container" style="padding-bottom: 100px;">
                                     <img width="100%" src="{{url("storage/{$promotion->image}")}}" alt="publicidade">
                                 </div>
                             @endif

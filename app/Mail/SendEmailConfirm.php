@@ -2,14 +2,15 @@
 
 namespace App\Mail;
 
-use App\Models\Client;
-use App\Models\ClientContact;
-use App\Models\Request as Pedido;
 
+use App\Models\CoordBancarias;
+use App\Models\RequestProduct;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
+use Illuminate\Support\Facades\DB;
+
 
 class SendEmailConfirm extends Mailable
 {
@@ -20,10 +21,10 @@ class SendEmailConfirm extends Mailable
      *
      * @return void
      */
-    public function __construct($idReq)
+   public function __construct($user, $idRequest)
     {
-        // $this->client = $client;
-        $this->idReq = $idReq;
+        $this->user = $user;
+        $this->idRequest = $idRequest;
     }
 
     /**
@@ -33,26 +34,36 @@ class SendEmailConfirm extends Mailable
      */
     public function build()
     {
-        $purchases = Pedido::where([
-            'id' => $this->idReq,
-        ])->orderBy('created_at', 'DESC')->get();
+        // Efectuar a consulta para a referência do pedido do cliente em questão, valor total do pedido, etc...
+        $requests = DB::select("
+            SELECT request.*, client.name as clientname,
+            client.email, client.telephone
 
-        if($purchases == [])
-        {
-            return redirect()->back();
-        }
+            FROM request, client
 
-        foreach($purchases as $purchase){$purchase->client_id;}
-        $client = Client::find($purchase->client_id);
-        $clientContacts = ClientContact::where('client_id', '=', $purchase->client_id)->get();
+            WHERE client.id = request.client_id
+            AND request.id = '$this->idRequest'
+
+            GROUP BY request.id, request.client_id, request.status, request.note, request.payment_method, request.total_of_request, request.canceled_for,
+            request.created_at, request.time, request.updated_at, client.name, client.email, client.telephone
+        ");
+
+        $requestProducts = RequestProduct::where('request_id', $this->idRequest)
+                                        ->join('product_tb', 'product_tb.id', '=', 'request_product.product_id')
+                                        ->select('product_tb.name', 'product_tb.id', 'request_product.qtd', 'request_product.total_of_request_product')
+                                        ->get();
 
 
-        $this->subject('Confirmação de Pagamento');
-        $this->to($client->email, $client->name);
+        $contacts = DB::select(" SELECT * FROM contacts_doriema ");
+
+        $this->subject('Confirmação de pagamento');
+        $this->to($this->user->email, $this->user->name);
+        //$this->attach( asset("Pró-forma refer.:{$this->idRequest}.pdf") );
 
         return $this->markdown('site.email.emailConfirm', [
-            'client' => $client,
-            'purchases' => $purchases
+            'requests' => $requests,
+            'requestProducts' => $requestProducts,
+            'contacts' => $contacts
         ]);
     }
 }

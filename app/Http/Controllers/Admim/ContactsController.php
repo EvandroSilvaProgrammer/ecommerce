@@ -36,6 +36,7 @@ class ContactsController extends Controller
         {
             return redirect()->back();
         }
+
         DB::update("UPDATE contacts_doriema SET phone_number='$request->phone_number', email='$request->email', adress='$request->adress' ");
 
        return redirect()->route('admim.contacts.index');

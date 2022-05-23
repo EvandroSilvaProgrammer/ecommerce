@@ -76,9 +76,9 @@
                 </tr>
                 <tr>
                     <td style="padding: 0 0px 0 10px">
-                        <p >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique, ipsa cum officia consequatur expedita enim molestias recusandae facere sed aut alias error vero nihil aliquid ut. Provident ad aspernatur temporibus.</p> <br>
+                        <p> A sua encomenda foi entregue com sucesso! <br> Seu/s livro/s  foram entregues em seu respectivo endereço descrito no processo de compra, estamos abertos a qualquer dúvida ou sugestão de vossa parte. <br> Atenciosamente, <br> Trutaa Lda. Operações.</p> <br>
 
-                        <p style="text-align: center"> Processado por computador. Este documento não serve de factura </p>
+                        <p style="text-align: center"> <b>OBS.:</b> Processado por computador. Este documento deve ser conservado porque representa prova de compra , pagamento  e recepção desta respectiva encomenda  na loja online Trutaa Livraria. </p>
                     </td>
                 </tr>
             </table>

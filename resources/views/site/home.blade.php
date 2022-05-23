@@ -240,62 +240,174 @@
                             <section>
                                 <div class="container">
                                     <div class="section-heading-1">
-                                        <h2>Leitura da semana (Título)</h2>
-                                        <p>Uma descrição muiro breve sobre a leituara!!! Muito breve mesmo.</p>
+                                        <h2>Leitura da semana - A Arte da Guerra</h2>
+                                        <p>A Arte da Guerra é um dos maiores tratados de estratégia de todos os tempos. Apresentamos aqui uma resenha comentada de um livro que ultrapassou as barreiras do tempo e nos traz ensinamentos que levaremos conosco ao longo da vida na busca de nossas vitórias.
+                                        </p>
                                         <div class="kode-icon"><i class="fa fa-book"></i></div>
                                     </div>
                                     <div class="bb-custom-wrapper">
                                         <div id="bb-bookblock" class="bb-bookblock">
                                             <div class="bb-item">
                                                 <div class="bb-custom-side">
-                                                    <h3>Chepter 1</h3>
-                                                    <p>Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie. Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie. Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie. Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie.Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie.</p>
+                                                    <h3>CAPÍTULO 1 - AVALIAÇÕES</h3>
+                                                    <p>
+                                                        Neste capitulo Sun Tzu enfatiza a importância da guerra para uma nação e nos apresenta cinco coisas indispensáveis para prever o desfecho de uma guerra são eles: <br> <br>
+
+                                                        <strong>O caminho:</strong> Seja líder de se mesmo e siga o seu caminho, enfrentando os desafios e medos que só os tornaram mais fortes. <br> <br>
+
+                                                        <strong>O tempo:</strong> Um dos principais desafios dos dias atuais é a “falta de tempo”, otimize seu tempo e o gaste da melhor forma possível, mas esteja atento as mudanças, aos imprevistos, mas o mais importante, estabeleça prioridades. <br> <br>
+
+                                                        <strong>O terreno:</strong> Conheça os lugar onde você está pisando, movimente-se, abra portas. <br> <br>
+
+                                                        <strong>Liderança:</strong> Seja líder de si mesmo. Desenvolva habilidades e qualidades de um líder e as pessoas virão até você. <br> <br>
+
+                                                        <strong>Regras:</strong> Conheça as regras e estará um passo à frente.
+                                                    </p>
                                                 </div>
                                                 <div class="bb-custom-side">
-                                                    <h3>Chepter 2</h3>
-                                                    <p>Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie.</p><p>Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie. Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie.</p>
+                                                    <h3>CAPÍTULO 2 - O COMBATE</h3>
+                                                    <p>
+                                                        Nesse capitulo ele nos mostra a importância de conhecer as nossas “armas” nossos pontos fortes e fracos, sempre potencializando os fortes e diminuindo o impacto dos fracos,e sempre adquirindo novas habilidades e qualidades. <br> <br>
+
+                                                        Compreenda a guerra pelo qual está lutando, quando mais você conhece, mais perto estará da vitória guerreiros.
+                                                    </p>
                                                 </div>
                                             </div>
                                             <div class="bb-item">
                                                 <div class="bb-custom-side">
-                                                    <h3>Chepter 3</h3>
-                                                    <p>Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie. Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie. Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie. Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie.Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie.</p>
+                                                    <h3>CAPÍTULO 3 - ESTRATÉGIA DE ATAQUE</h3>
+                                                    <p>
+                                                        Sun Tzu disse: <br> <br>
+
+                                                        <i> “ A habilidade suprema não consiste em ganhar cem batalhas, mas sim vencer o inimigo sem combater.” </i> <br> <br>
+
+                                                        Nesse capitulo ele enfatiza a importância de conhecer a si mesmo e ao inimigo. Não enxergue o inimigo como seu concorrente, ou uma pessoa que queira te derrubar, mas também o reconheça como seus medos, que te impedem de agir. Faça perguntas a si mesmo e perceberá que as repostas serão o conhecimento necessário para enfrenta-los.
+                                                    </p>
                                                 </div>
                                                 <div class="bb-custom-side">
-                                                    <h3>Chepter 4</h3>
-                                                    <p>Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie.</p><p>Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie. Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie.</p>
+                                                    <h3>CAPÍTULO 4 - PREPARAÇÃO</h3>
+                                                    <p>
+                                                        Sun Tzu disse: <br> <br>
+
+                                                        <i> “Ser invencível significa conhecer a si mesmo, ser vulnerável significa conhecer ao outro” </i> <br> <br>
+
+                                                        Lembre-se: se torne invencível primeiro, conhecendo a si mesmo, a invencibilidade está na defesa e a vulnerabilidade no ataque. Esteja sempre preparado para se defender, mas ataque no momento certo.
+                                                    </p>
                                                 </div>
                                             </div>
                                             <div class="bb-item">
                                                 <div class="bb-custom-side">
-                                                    <h3>Chepter 5</h3>
-                                                    <p>Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie. Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie. Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie. Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie.Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie.</p>
+                                                    <h3>CAPÍTULO 5 - PROPENSÃO</h3>
+                                                    <p>
+                                                        <i>“Existem apenas cinco notas na escala musical, mas suas combinações são inimagináveis, somente cinco cores básicas, mas nunca vimos todas as suas misturas, há cinco sabores, mas suas variações são ilimitadas.”</i> <br> <br>
+
+                                                        Procure reinventar-se e sempre surpreender-se consigo mesmo e ao próximo. E lute sempre pelo ímpeto isso é propensão.
+                                                    </p>
                                                 </div>
                                                 <div class="bb-custom-side">
-                                                    <h3>Chepter 6</h3>
-                                                    <p>Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie.</p><p>Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie. Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie.</p>
+                                                    <h3>CAPÍTULO 6 - O CHEIO E O VAZIO</h3>
+                                                    <p>
+                                                        <i> “Para tomar o que se ataca ataque onde não há defesa; para se defender, defenda-se onde o inimigo não parece atacar.” </i> <br> <br>
+
+                                                        Esteja atento, aproveite as oportunidades e adapte-se as circunstâncias.
+                                                    </p>
                                                 </div>
                                             </div>
                                             <div class="bb-item">
                                                 <div class="bb-custom-side">
-                                                    <h3>Chepter 7</h3>
-                                                    <p>Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie. Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie. Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie. Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie.Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie.</p>
+                                                    <h3>CAPÍTULO 7 - MANOBRAS</h3>
+                                                    <p>
+                                                        Enxergue os problemas como oportunidades disfarçadas, os transformando-os em vantagens. E movimente-se.
+                                                    </p>
                                                 </div>
                                                 <div class="bb-custom-side">
-                                                    <h3>Chepter 8</h3>
-                                                    <p>Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie.</p><p>Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie. Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie.</p>
+                                                    <h3>CAPÍTULO 8 - AS NOVE MUDANÇAS</h3>
+                                                    <p>
+                                                        Sun Tzu disse: <br> <br>
+
+                                                        <i> “Um general sábio pondera, pesa o que há de favorável, de desfavorável, e decide o que é mais acertado. Ao levar em conta o que é favorável, torna o plano executável, ao levar em conta o que é desfavorável, soluciona as dificuldades.” </i> <br> <br>
+
+                                                        Mas antes de tomar a decisões conheça as regras. Ou as crie.
+                                                    </p>
                                                 </div>
                                             </div>
                                             <div class="bb-item">
                                                 <div class="bb-custom-side">
-                                                    <h3>Chepter 9</h3>
-                                                    <p>Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie. Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie. Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie. Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie.Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie.</p>
+                                                    <h3>CAPÍTULO 9 - SOBRE A MOVIMENTAÇÃO</h3>
+                                                    <p>
+                                                        Nesse capitulo Sun Tzu traz as formas de como se movimentar na água, na mata, nas colinas e macetes de sinais dados pelo comportamento dos soldados. Como também a importância das ordens, que sejam claras e objetivas resultando-se na obediência. <br> <br>
+
+                                                        <i> “Um exército deve escolher lugares altos, evitar os baixos, valorizar a luz e fugir da sombra.” </i> <br> <br>
+
+                                                        Busque a visão sistêmica das coisas, quanto mais claro for as suas metas e objetivos, mais rápido poderá alcança-los, sendo obediente consigo mesma.
+                                                    </p>
                                                 </div>
                                                 <div class="bb-custom-side">
-                                                    <h3>Chepter 10</h3>
-                                                    <p>Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie.</p><p>Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie. Pastry bear claw oat cake danish croissant jujubes danish. Wypas soufflé muffin. Liquorice powder pastry danish. Candy toffee gummi bears chocolate bar lollipop applicake chocolate cake danish brownie.</p>
+                                                    <h3>CAPÍTULO 10 - O TERRENO</h3>
+                                                    <p>
+                                                        Sun Tzu nos apresenta neste capitulo alguns tipos de terrenos, que nós também poderemos está pisando em algum deles nesse momento. São classificados como: acessíveis, tortuosos, indecisos, apertados, acidentados ou distantes, e nos traz como se movimentar em cada um deles. <br> <br>
+
+                                                        <i> “Quem conhece a si mesmo e ao inimigo pode garantir a vitória, mas quem conhece o tempo e o terreno alcançara de forma absoluta.” </i>
+                                                    </p>
                                                 </div>
                                             </div>
+                                            <div class="bb-item">
+                                                <div class="bb-custom-side">
+                                                    <h3>CAPÍTULO 11 - OS NOVE TERRITÓRIOS</h3>
+                                                    <p>
+                                                        Nesse capitulo assim como no anterior, ele nos apresenta os nove territórios e como agir dentro deles. Também enfatiza a velocidade e o ataque surpresa como fator fundamental nessa movimentação. <br> <br>
+
+                                                        Em qual território você se encontra neste momento: Fronteira, chave, disperso, aberto, interseção perigoso, difícil, cercado ou mortal? <br> <br>
+
+                                                        E como está agindo neles?
+                                                    </p>
+                                                </div>
+                                                <div class="bb-custom-side">
+                                                    <h3>CAPÍTULO 12 - ATAQUE COM FOGO</h3>
+                                                    <p>
+                                                        Nesse capitulo ele nos mostra as cinco formas de atacar com o fogo. <br> <br>
+
+                                                        Enxergue o fogo como sendo a sua melhor arma ou ferramenta secreta, na qual você tem todo o domínio e use-a de várias maneiras ao seu favor.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="bb-item">
+                                                <div class="bb-custom-side">
+                                                    <h3>CAPÍTULO 13 - O USO DE ESPIÕES</h3>
+                                                    <p>
+                                                        Nesse capítulos ele vem nos mostra as vantagens de se ter um espião e quais são os tipos de espiões existentes. <br> <br>
+
+                                                        Sun Tzu disse: <br> <br>
+
+                                                        “Somente um soberano sábio e um general habilidoso são capazes de utilizar pessoas inteligentes como espiões e emprega-los, garantindo a realização de grandes feitos.” <br> <br>
+
+                                                        Podemos enxergar esse “espião” como sendo pessoas de confiança na qual juntos iremos realizar grandes feitos, seja ele o sócio com o qual planeja abrir uma empresa, o seu melhor amigo, o seu companheiro de vida. <br> <br>
+
+                                                        Pessoas que tem uma sinergia com você e que juntos possam alcançar grandes conquistas. <br> <br>
+
+                                                        Então pessoal é isso apresento a vocês a “Arte da Guerra” e convido-os- a fazer essa leitura que nos inspira e nos faz pensar de fora da caixa. <br> <br>
+
+                                                        Veja além do que se ver, leia nas entre linhas, pense e reflita. Não é apenas um livro sobre Guerra, mas sim sobre vitória ou que você quiser que ele seja.
+                                                    </p>
+                                                </div>
+                                                <div class="bb-custom-side">
+                                                    <h3>CONCLUSÃO</h3>
+                                                    <p>
+                                                        Esse brilhante livro de apenas treze capítulos e 130 páginas, nos traz ensinamentos e preceitos que ultrapassa os limites do tempo. <br> <br>
+
+                                                        Não pense nele apenas como um livro que fala de Guerra, mas como um livro que fala da importância de vencer na vida. Pois antes de Guerra, vem a palavra a Arte, o que é arte para você? Pra mim a arte é a forma de externalizar os nossos sentimentos. <br> <br>
+
+                                                        Nesse livro Sun Tzu expressa seus sentimentos e compartilha conosco o que aprendeu durante as Guerras que participou. <br> <br>
+
+                                                        Sun Tzu disse: <br> <br>
+
+                                                        <i> “O verdadeiro objetivo da Guerra é a Paz” </i> <br> <br>
+
+                                                        Não estamos vivenciando uma luta armada entre nações, mas estamos constantemente em guerra com nós mesmos, buscando nossas próprias vitorias pessoais e o tão desejado equilíbrio entre a vida pessoal e profissional. Ou seja, estamos em busca da nossa própria Paz.
+                                                    </p>
+                                                </div>
+                                            </div>
+
                                         </div>
 
                                         <nav>

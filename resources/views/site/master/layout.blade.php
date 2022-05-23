@@ -473,6 +473,21 @@
         </footer>
         <!-- /FOOTER -->
 
+        {{-- Tawk --}}
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/60d5b17a65b7290ac637df3b/1f91bqhu0';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+
         <!-- jQuery Plugins -->
 
         <script src="{{asset('site/js/jquery.min.js')}}"></script>

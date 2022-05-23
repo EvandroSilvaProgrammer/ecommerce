@@ -76,9 +76,10 @@
                 </tr>
                 <tr>
                     <td style="padding: 0 0px 0 10px">
-                        <p >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique, ipsa cum officia consequatur expedita enim molestias recusandae facere sed aut alias error vero nihil aliquid ut. Provident ad aspernatur temporibus.</p> <br>
+                        <p> O seu pagamento para encomenda correspondente foi efetuada com sucesso! <br> Por favor, indique o seu número de referência sempre que desejar entrar em contacto connosco sobre esta subscrição/encomenda. <br> Seu/s livro/s será enviado para o seu endereço descrito no processo de compra dentro de no máximo 20 dias, poderá contactar-nos em caso da necessidade de alguma alteração ou qualquer dúvida de vossa parte. <br> Atenciosamente, <br> Trutaa Lda. Operações. </p> <br>
 
-                        <p style="text-align: center"> Processado por computador. Este documento não serve de factura </p>
+                        <p style="text-align: center"> <b>OBS.:</b> Processado por computador. Este documento deve ser conservado porque representa prova de compra e pagamento (factura) na loja online Trutaa Livraria.
+                        </p>
                     </td>
                 </tr>
             </table>

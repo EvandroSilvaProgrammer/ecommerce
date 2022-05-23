@@ -92,9 +92,13 @@
                                         {{$coordenada->banc}} - {{$coordenada->iban}}<br><br>
                                     @endforeach
                                     <br>
-                                    <p >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique, ipsa cum officia consequatur expedita enim molestias recusandae facere sed aut alias error vero nihil aliquid ut. Provident ad aspernatur temporibus.</p> <br>
+                                    <p> Para efetuar o pagamento através de transferência bancária, poderá fazê-lo através da conta bancária já citada acima. </p> <br>
 
-                                    <p style="text-align: center"> Processado por computador. Este documento não serve de factura </p>
+                                    <p> Após efetuar o pagamento queira por favor, enviar o comprovativo de pagamento e o respetivo número de referência  do pedido para o número do whatsapp: <b>+244 940 047 896</b>   ou <b> info@trutaa.com </b> / <b>trutaaencomendas@gmail.com</b> <br> Nº de referência do pedido: <b>{{$request->id}} </p> <br>
+
+                                    <p> <b>OBS.:</b> A referência de pedido tem uma validade de 32 horas, antes do pagamento. </p>
+
+                                    <p style="text-align: center"> Processado por computador. Este documento não serve de fatura, apenas representa um guia ou apoio ao pagamento da respetiva solicitação da encomenda descrita acima. </p>
                                 </td>
                             </tr>
                         </table>
